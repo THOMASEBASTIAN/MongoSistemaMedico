@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0030"
+  },
+  "nombre": "Clopidogrel 75mg",
+  "fabricante": "CardioPharma",
+  "tipo": "Antiplaquetario",
+  "inventarioPorHospital": [
+    {
+      "idHospital": {
+        "$oid": "60c72b2f9e4b7b1b7c2d0001"
+      },
+      "cantidad": 500
+    },
+    {
+      "idHospital": {
+        "$oid": "60c72b2f9e4b7b1b7c1d7e04"
+      },
+      "cantidad": 150
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0031"
+  },
+  "nombre": "Donepezilo 10mg",
+  "fabricante": "NeuroGen",
+  "tipo": "Inhibidor de la colinesterasa",
+  "inventarioPorHospital": [
+    {
+      "idHospital": {
+        "$oid": "60c72b2f9e4b7b1b7c2d0002"
+      },
+      "cantidad": 200
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0032"
+  },
+  "nombre": "Ácido Fólico 5mg",
+  "fabricante": "MaternaCare",
+  "tipo": "Vitamina",
+  "inventarioPorHospital": [
+    {
+      "idHospital": {
+        "$oid": "60c72b2f9e4b7b1b7c2d0003"
+      },
+      "cantidad": 1000
+    }
+  ]
+}]

@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0001"
+  },
+  "nombre": "Instituto Cardiovascular de Santander",
+  "telefono": "555-3030",
+  "direccion": "Carrera 28 #55-30, Bucaramanga",
+  "email": "info@cardiosantander.com",
+  "idDirectorGeneral": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0010"
+  },
+  "areasEspecializadas": [
+    "Cardiología",
+    "Cirugía Cardiovascular",
+    "Hemodinamia",
+    "Electroﬁsiología"
+  ]
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0002"
+  },
+  "nombre": "Hospital Geriátrico 'Años Dorados'",
+  "telefono": "555-4040",
+  "direccion": "Calle 45 #10-20, Floridablanca",
+  "email": "contacto@anosdorados.org",
+  "idDirectorGeneral": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0011"
+  },
+  "areasEspecializadas": [
+    "Geriatría",
+    "Neurología",
+    "Cuidado Paliativo",
+    "Reumatología"
+  ]
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0003"
+  },
+  "nombre": "Clínica de la Mujer",
+  "telefono": "555-5050",
+  "direccion": "Avenida La Rosita #21-85, Bucaramanga",
+  "email": "citas@clinicamujer.com.co",
+  "idDirectorGeneral": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0012"
+  },
+  "areasEspecializadas": [
+    "Ginecología",
+    "Obstetricia",
+    "Fertilidad",
+    "Pediatría Neonatal"
+  ]
+}]

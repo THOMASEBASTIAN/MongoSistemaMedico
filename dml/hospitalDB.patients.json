@@ -1,0 +1,127 @@
+[{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0040"
+  },
+  "idPaciente": "PAT006",
+  "nombre": "Lucía Gil",
+  "segurosMedicos": [
+    "Sanitas EPS"
+  ],
+  "telefono": "3196547890",
+  "email": "lucia.gil@example.com",
+  "direccion": "Calle 60 #20-15, Bucaramanga",
+  "numeroHistoriaClinica": "HCL-2024-006",
+  "historialClinico": [
+    {
+      "idEntrada": {
+        "$oid": "6880104fd12d2666263a6868"
+      },
+      "fecha": {
+        "$date": "2024-07-15T10:00:00.000Z"
+      },
+      "diagnostico": "Arritmia cardíaca",
+      "tratamientosRealizados": [
+        {
+          "$oid": "60c72b2f9e4b7b1b7c2d0020"
+        }
+      ],
+      "medicamentosRecetados": [
+        {
+          "$oid": "60c72b2f9e4b7b1b7c2d0030"
+        }
+      ],
+      "resultadosObtenidos": "Procedimiento exitoso, paciente en observación.",
+      "idMedico": {
+        "$oid": "60c72b2f9e4b7b1b7c2d0013"
+      },
+      "idVisitaMedicaAsociada": {
+        "$oid": "60c72b2f9e4b7b1b7c2d0050"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0041"
+  },
+  "idPaciente": "PAT007",
+  "nombre": "Manuel Torres",
+  "segurosMedicos": [
+    "Compensar EPS",
+    "Seguros Bolívar"
+  ],
+  "telefono": "3211234567",
+  "email": "manuel.torres@example.com",
+  "direccion": "Carrera 33 #80-120, Floridablanca",
+  "numeroHistoriaClinica": "HCL-2024-007",
+  "historialClinico": [
+    {
+      "idEntrada": {
+        "$oid": "6880104fd12d2666263a6869"
+      },
+      "fecha": {
+        "$date": "2024-08-01T14:30:00.000Z"
+      },
+      "diagnostico": "Evaluación de memoria por posible Alzheimer",
+      "tratamientosRealizados": [
+        {
+          "$oid": "60c72b2f9e4b7b1b7c2d0021"
+        }
+      ],
+      "medicamentosRecetados": [
+        {
+          "$oid": "60c72b2f9e4b7b1b7c2d0031"
+        }
+      ],
+      "resultadosObtenidos": "Inicio de tratamiento para ralentizar deterioro cognitivo.",
+      "idMedico": {
+        "$oid": "60c72b2f9e4b7b1b7c2d0014"
+      },
+      "idVisitaMedicaAsociada": {
+        "$oid": "60c72b2f9e4b7b1b7c2d0051"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0042"
+  },
+  "idPaciente": "PAT008",
+  "nombre": "Valentina Castro",
+  "segurosMedicos": [
+    "Sura EPS"
+  ],
+  "telefono": "3108887766",
+  "email": "valentina.castro@example.com",
+  "direccion": "Anillo Vial, Girón",
+  "numeroHistoriaClinica": "HCL-2024-008",
+  "historialClinico": [
+    {
+      "idEntrada": {
+        "$oid": "6880104fd12d2666263a686a"
+      },
+      "fecha": {
+        "$date": "2024-08-10T08:00:00.000Z"
+      },
+      "diagnostico": "Control prenatal de 20 semanas",
+      "tratamientosRealizados": [
+        {
+          "$oid": "60c72b2f9e4b7b1b7c2d0022"
+        }
+      ],
+      "medicamentosRecetados": [
+        {
+          "$oid": "60c72b2f9e4b7b1b7c2d0032"
+        }
+      ],
+      "resultadosObtenidos": "Feto y madre en condiciones óptimas.",
+      "idMedico": {
+        "$oid": "60c72b2f9e4b7b1b7c2d0015"
+      },
+      "idVisitaMedicaAsociada": {
+        "$oid": "60c72b2f9e4b7b1b7c2d0052"
+      }
+    }
+  ]
+}]

@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0020"
+  },
+  "nombre": "Cateterismo Cardíaco",
+  "descripcion": "Procedimiento para diagnosticar y tratar afecciones de las arterias coronarias.",
+  "areaMedicaRelacionada": "Cardiología",
+  "costo": 4500
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0021"
+  },
+  "nombre": "Terapia de Estimulación Cognitiva",
+  "descripcion": "Ejercicios y actividades para mantener o mejorar las funciones cognitivas en adultos mayores.",
+  "areaMedicaRelacionada": "Geriatría",
+  "costo": 90
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0022"
+  },
+  "nombre": "Monitoreo Fetal",
+  "descripcion": "Vigilancia de la frecuencia cardíaca y bienestar del feto durante el embarazo y parto.",
+  "areaMedicaRelacionada": "Obstetricia",
+  "costo": 150
+}]

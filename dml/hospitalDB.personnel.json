@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0010"
+  },
+  "idEmpleado": "DIR006",
+  "nombre": "Dra. Sofia Vergara",
+  "email": "sofia.vergara@cardiosantander.com",
+  "telefono": "3109876543",
+  "salario": 17000,
+  "tipo": "Director General",
+  "idHospital": null
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0011"
+  },
+  "idEmpleado": "DIR007",
+  "nombre": "Dr. Luis Carlos Galán",
+  "email": "lc.galan@anosdorados.org",
+  "telefono": "3118765432",
+  "salario": 14500,
+  "tipo": "Director General",
+  "idHospital": null
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0012"
+  },
+  "idEmpleado": "DIR008",
+  "nombre": "Dra. Carolina Mendez",
+  "email": "carolina.mendez@clinicamujer.com.co",
+  "telefono": "3127654321",
+  "salario": 16500,
+  "tipo": "Director General",
+  "idHospital": null
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0013"
+  },
+  "idEmpleado": "MED006",
+  "nombre": "Dr. Alejandro Sanz",
+  "email": "alejandro.sanz@cardiosantander.com",
+  "telefono": "3136543210",
+  "salario": 11000,
+  "tipo": "Medico Especialista",
+  "especialidad": "Cardiología",
+  "idHospital": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0001"
+  }
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0014"
+  },
+  "idEmpleado": "MED007",
+  "nombre": "Dra. Laura Pausini",
+  "email": "laura.pausini@anosdorados.org",
+  "telefono": "3145432109",
+  "salario": 9800,
+  "tipo": "Medico Especialista",
+  "especialidad": "Geriatría",
+  "idHospital": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0002"
+  }
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0015"
+  },
+  "idEmpleado": "MED008",
+  "nombre": "Dr. Ricardo Arjona",
+  "email": "ricardo.arjona@clinicamujer.com.co",
+  "telefono": "3154321098",
+  "salario": 10500,
+  "tipo": "Medico Especialista",
+  "especialidad": "Ginecología",
+  "idHospital": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0003"
+  }
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0016"
+  },
+  "idEmpleado": "ENF004",
+  "nombre": "Enf. Carlos Vives",
+  "email": "carlos.vives@cardiosantander.com",
+  "telefono": "3163210987",
+  "salario": 4100,
+  "tipo": "Enfermero/a",
+  "idHospital": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0001"
+  }
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0017"
+  },
+  "idEmpleado": "ENF005",
+  "nombre": "Enf. Shakira Mebarak",
+  "email": "shakira.mebarak@clinicamujer.com.co",
+  "telefono": "3172109876",
+  "salario": 4200,
+  "tipo": "Enfermero/a",
+  "idHospital": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0003"
+  }
+},
+{
+  "_id": { "$oid": "60c72b2f9e4b7b1b7c2d001E" },
+  "idEmpleado": "MAN001",
+  "nombre": "Mario Castañeda",
+  "email": "mario.castaneda@cardiosantander.com",
+  "telefono": "3015558899",
+  "salario": 1800000,
+  "tipo": "Personal de Mantenimiento",
+  "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }
+}
+]

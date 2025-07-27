@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0050"
+  },
+  "fecha": {
+    "$date": "2024-07-15T10:00:00.000Z"
+  },
+  "hora": "10:00 AM",
+  "diagnostico": "Arritmia cardíaca",
+  "idPaciente": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0040"
+  },
+  "idMedico": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0013"
+  },
+  "idHospital": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0001"
+  }
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0051"
+  },
+  "fecha": {
+    "$date": "2024-08-01T14:30:00.000Z"
+  },
+  "hora": "02:30 PM",
+  "diagnostico": "Evaluación de memoria por posible Alzheimer",
+  "idPaciente": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0041"
+  },
+  "idMedico": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0014"
+  },
+  "idHospital": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0002"
+  }
+},
+{
+  "_id": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0052"
+  },
+  "fecha": {
+    "$date": "2024-08-10T08:00:00.000Z"
+  },
+  "hora": "08:00 AM",
+  "diagnostico": "Control prenatal de 20 semanas",
+  "idPaciente": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0042"
+  },
+  "idMedico": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0015"
+  },
+  "idHospital": {
+    "$oid": "60c72b2f9e4b7b1b7c2d0003"
+  }
+}]
