@@ -1,10 +1,18 @@
+// #1
+
 db.patients.find({ "direccion": { $regex: /floridablanca/i } })
+
+
+
+// #2
 
 db.personnel.find({
   "salario": { $gt: 10000000 },
   "tipo": { $in: ["Medico Especialista", "Director General"] }
 })
 
+
+// #3
 
 db.medicalVisits.aggregate([
   {
@@ -35,10 +43,13 @@ db.medicalVisits.aggregate([
 ])
 
 
-// db.hospitals.findOne({nombre: "Clínica San Pío"}) -> _id: "60c72b2f9e4b7b1b7c2d0005"
+
+// #4
 
 db.personnel.find({ idHospital: { "$oid": "60c72b2f9e4b7b1b7c2d0005" } })
 
+
+// #5
 
 db.medicalVisits.aggregate([
   {
@@ -155,3 +166,109 @@ db.medicalVisits.aggregate([
     "consulta": "db.medicalVisits.aggregate([ { $match: { idHospital: ObjectId('60c72b2f9e4b7b1b7c2d0003') } }, { $group: { _id: '$diagnostico', count: { $sum: 1 } } }, { $sort: { count: -1 } }, { $limit: 1 } ])"
   }
 ]
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////7
+
+
+// Encontrar todos los hospitales en Bucaramanga:
+
+db.hospitals.find({ direccion: /Bucaramanga/i })
+
+
+// Listar hospitales con "Cardiología" como área especializada:
+
+db.hospitals.find({ areasEspecializadas: "Cardiología" })
+
+
+// Obtener el nombre y el teléfono del "Hospital Geriátrico 'Años Dorados'":
+
+db.hospitals.find({ nombre: "Hospital Geriátrico 'Años Dorados'" }, { nombre: 1, telefono: 1, _id: 0 })
+
+
+// Contar cuántos hospitales tienen un email que termina en ".com":
+
+db.hospitals.countDocuments({ email: /\.com$/ })
+
+
+// Actualizar el teléfono del "Instituto Cardiovascular de Santander":
+
+db.hospitals.updateOne(
+  { nombre: "Instituto Cardiovascular de Santander" },
+  { $set: { telefono: "607-555-3030" } }
+)
+
+
+// Encontrar hospitales cuyo nombre empieza con "Clínica":
+
+db.hospitals.find({ nombre: /^Clínica/i })
+
+
+// Buscar hospitales con cualquier tipo de "Cirugía" en sus áreas especializadas:
+
+db.hospitals.find({ areasEspecializadas: /Cirugía/i })
+
+
+// Listar hospitales cuyo email contiene "info" o "contacto":
+
+db.hospitals.find({ email: /info|contacto/i })
+
+
+// Encontrar hospitales cuya dirección contenga "Carrera" seguida de cualquier número:
+
+db.hospitals.find({ direccion: /Carrera \d+/i })
+
+
+// Buscar hospitales que no estén en "Bucaramanga" (usando regex para la negación en dirección):
+
+db.hospitals.find({ direccion: { $not: /Bucaramanga/i } })
+
+
+// Encontrar todas las visitas médicas realizadas el 15 de julio de 2024:
+
+db.medicalVisits.find({ fecha: { $eq: ISODate("2024-07-15T10:00:00.000Z") } })
+
+
+//Contar cuántas visitas tienen el diagnóstico de "Arritmia cardíaca":
+
+db.medicalVisits.countDocuments({ diagnostico: "Arritmia cardíaca" })
+
+
+// Obtener las visitas del paciente con idPaciente "60c72b2f9e4b7b1b7c2d0040":
+
+db.medicalVisits.find({ idPaciente: ObjectId("60c72b2f9e4b7b1b7c2d0040") })
+
+
+// Encontrar visitas médicas que no tengan un diagnóstico específico (ej: null o vacío, aunque en tus datos todos tienen):
+
+db.medicalVisits.find({ diagnostico: { $exists: true, $ne: "" } }) // Esto es más para validar que exista y no esté vacío
+
+
+// Eliminar la visita con el _id "60c72b2f9e4b7b1b7c2d0050":
+
+db.medicalVisits.deleteOne({ _id: ObjectId("60c72b2f9e4b7b1b7c2d0050") })
+
+
+// Buscar visitas médicas cuyo diagnóstico contenga la palabra "cardíaca" (ignorando mayúsculas/minúsculas):
+
+db.medicalVisits.find({ diagnostico: /cardíaca/i })
+
+
+// Encontrar visitas cuya hora empiece con "08":
+
+db.medicalVisits.find({ hora: /^08/ })
+
+
+// Listar visitas con diagnósticos que incluyan "evaluación" o "control":
+
+db.medicalVisits.find({ diagnostico: /evaluación|control/i })
+
+
+// Obtener visitas médicas con un diagnóstico que termine en "Alzheimer":
+
+db.medicalVisits.find({ diagnostico: /Alzheimer$/ })
+
+
+// Buscar visitas médicas realizadas en cualquier hora que contenga "PM":
+
+db.medicalVisits.find({ hora: /PM/ })
