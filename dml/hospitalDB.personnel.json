@@ -1,120 +1,428 @@
-[{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0010"
+[
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00A0" },
+    "idEmpleado": "DIR011",
+    "nombre": "Dr. Fonseca",
+    "email": "fonseca.dir@oncosantander.com",
+    "telefono": "3101112222",
+    "salario": 19000000,
+    "tipo": "Director General",
+    "idHospital": null
   },
-  "idEmpleado": "DIR006",
-  "nombre": "Dra. Sofia Vergara",
-  "email": "sofia.vergara@cardiosantander.com",
-  "telefono": "3109876543",
-  "salario": 17000,
-  "tipo": "Director General",
-  "idHospital": null
-},
-{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0011"
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00A1" },
+    "idEmpleado": "DIR012",
+    "nombre": "Dra. Paulina Rubio",
+    "email": "p.rubio@ortotrauma.com",
+    "telefono": "3112223333",
+    "salario": 17500000,
+    "tipo": "Director General",
+    "idHospital": null
   },
-  "idEmpleado": "DIR007",
-  "nombre": "Dr. Luis Carlos Galán",
-  "email": "lc.galan@anosdorados.org",
-  "telefono": "3118765432",
-  "salario": 14500,
-  "tipo": "Director General",
-  "idHospital": null
-},
-{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0012"
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00A2" },
+    "idEmpleado": "DIR013",
+    "nombre": "Dr. Franco De Vita",
+    "email": "f.devita@sancamilo.org",
+    "telefono": "3123334444",
+    "salario": 16000000,
+    "tipo": "Director General",
+    "idHospital": null
   },
-  "idEmpleado": "DIR008",
-  "nombre": "Dra. Carolina Mendez",
-  "email": "carolina.mendez@clinicamujer.com.co",
-  "telefono": "3127654321",
-  "salario": 16500,
-  "tipo": "Director General",
-  "idHospital": null
-},
-{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0013"
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00A3" },
+    "idEmpleado": "DIR014",
+    "nombre": "Dra. Gloria Estefan",
+    "email": "g.estefan@institutodelrinon.com",
+    "telefono": "3134445555",
+    "salario": 18500000,
+    "tipo": "Director General",
+    "idHospital": null
   },
-  "idEmpleado": "MED006",
-  "nombre": "Dr. Alejandro Sanz",
-  "email": "alejandro.sanz@cardiosantander.com",
-  "telefono": "3136543210",
-  "salario": 11000,
-  "tipo": "Medico Especialista",
-  "especialidad": "Cardiología",
-  "idHospital": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0001"
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00A4" },
+    "idEmpleado": "DIR015",
+    "nombre": "Dr. Chichi Peralta",
+    "email": "chichi.dir@pequenosol.com",
+    "telefono": "3145556666",
+    "salario": 16800000,
+    "tipo": "Director General",
+    "idHospital": null
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00A5" },
+    "idEmpleado": "DIR016",
+    "nombre": "Dra. Julieta Venegas",
+    "email": "j.venegas@digestivas.co",
+    "telefono": "3156667777",
+    "salario": 17200000,
+    "tipo": "Director General",
+    "idHospital": null
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00A6" },
+    "idEmpleado": "DIR017",
+    "nombre": "Dr. Ricardo Montaner",
+    "email": "r.montaner@oftalmos.com",
+    "telefono": "3167778888",
+    "salario": 19500000,
+    "tipo": "Director General",
+    "idHospital": null
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00A7" },
+    "idEmpleado": "DIR018",
+    "nombre": "Dra. Ana Gabriel",
+    "email": "a.gabriel@metropolitano.com",
+    "telefono": "3178889999",
+    "salario": 21000000,
+    "tipo": "Director General",
+    "idHospital": null
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00A8" },
+    "idEmpleado": "DIR019",
+    "nombre": "Dr. Miguel Bosé",
+    "email": "m.bose@neumoriente.com",
+    "telefono": "3189990000",
+    "salario": 17800000,
+    "tipo": "Director General",
+    "idHospital": null
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00A9" },
+    "idEmpleado": "DIR020",
+    "nombre": "Dra. Rosario Flores",
+    "email": "rosario.f@saludcomunitaria.gov.co",
+    "telefono": "3190001111",
+    "salario": 15500000,
+    "tipo": "Director General",
+    "idHospital": null
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00B1" },
+    "idEmpleado": "MED011",
+    "nombre": "Dr. Juan Luis Guerra",
+    "email": "jl.guerra@oncosantander.com",
+    "telefono": "3201112233",
+    "salario": 14000000,
+    "tipo": "Medico Especialista",
+    "especialidad": "Oncología Clínica",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000A" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00B2" },
+    "idEmpleado": "MED012",
+    "nombre": "Dr. Ricky Martin",
+    "email": "ricky.m@ortotrauma.com",
+    "telefono": "3212223344",
+    "salario": 13500000,
+    "tipo": "Medico Especialista",
+    "especialidad": "Ortopedia",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000B" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00B3" },
+    "idEmpleado": "MED013",
+    "nombre": "Dra. Thalía",
+    "email": "thalia.psi@sancamilo.org",
+    "telefono": "3223334455",
+    "salario": 11500000,
+    "tipo": "Medico Especialista",
+    "especialidad": "Psiquiatría",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000C" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00B4" },
+    "idEmpleado": "MED014",
+    "nombre": "Dr. Enrique Iglesias",
+    "email": "e.iglesias@institutodelrinon.com",
+    "telefono": "3234445566",
+    "salario": 14200000,
+    "tipo": "Medico Especialista",
+    "especialidad": "Urología",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000D" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00B5" },
+    "idEmpleado": "MED015",
+    "nombre": "Dra. Mon Laferte",
+    "email": "mon.laferte@cardiosantander.com",
+    "telefono": "3002223344",
+    "salario": 12800000,
+    "tipo": "Medico Especialista",
+    "especialidad": "Cardiología",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00C1" },
+    "idEmpleado": "ENF007",
+    "nombre": "Enf. Juan Gabriel",
+    "email": "jgabriel.enf@oncosantander.com",
+    "telefono": "3013334455",
+    "salario": 4500000,
+    "tipo": "Enfermero/a",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000A" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00C2" },
+    "idEmpleado": "ENF008",
+    "nombre": "Enf. Rocío Dúrcal",
+    "email": "rdurcal.enf@anosdorados.org",
+    "telefono": "3024445566",
+    "salario": 4600000,
+    "tipo": "Enfermero/a",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00C3" },
+    "idEmpleado": "ENF009",
+    "nombre": "Enf. Raphael",
+    "email": "raphael.enf@pequenosol.com",
+    "telefono": "3035556677",
+    "salario": 4400000,
+    "tipo": "Enfermero/a",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000E" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00D1" },
+    "idEmpleado": "ADM002",
+    "nombre": "Alejandra Guzmán",
+    "email": "a.guzman.adm@ortotrauma.com",
+    "telefono": "3046667788",
+    "salario": 3200000,
+    "tipo": "Personal Administrativo",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000B" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00D2" },
+    "idEmpleado": "ADM003",
+    "nombre": "Luis Miguel",
+    "email": "lm.adm@metropolitano.com",
+    "telefono": "3057778899",
+    "salario": 3500000,
+    "tipo": "Personal Administrativo",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00E1" },
+    "idEmpleado": "MAN002",
+    "nombre": "Camilo Sesto",
+    "email": "csesto.man@sancamilo.org",
+    "telefono": "3102223344",
+    "salario": 1950000,
+    "tipo": "Personal de Mantenimiento",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000C" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00B6" },
+    "idEmpleado": "MED016",
+    "nombre": "Dr. Maná",
+    "email": "mana.med@institutodelrinon.com",
+    "telefono": "3105551212",
+    "salario": 13800000,
+    "tipo": "Medico Especialista",
+    "especialidad": "Nefrología",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000D" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00B7" },
+    "idEmpleado": "MED017",
+    "nombre": "Dra. Alejandra Ávalos",
+    "email": "a.avalos.med@digestivas.co",
+    "telefono": "3116662323",
+    "salario": 12900000,
+    "tipo": "Medico Especialista",
+    "especialidad": "Gastroenterología",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000F" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00B8" },
+    "idEmpleado": "MED018",
+    "nombre": "Dr. Emmanuel",
+    "email": "emmanuel.med@metropolitano.com",
+    "telefono": "3127773434",
+    "salario": 15000000,
+    "tipo": "Medico Especialista",
+    "especialidad": "Medicina de Emergencia",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00B9" },
+    "idEmpleado": "MED019",
+    "nombre": "Dra. Isabel Pantoja",
+    "email": "i.pantoja.med@pequenosol.com",
+    "telefono": "3138884545",
+    "salario": 11800000,
+    "tipo": "Medico Especialista",
+    "especialidad": "Pediatría General",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000E" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00BA" },
+    "idEmpleado": "MED020",
+    "nombre": "Dr. José José",
+    "email": "jj.med@saludcomunitaria.gov.co",
+    "telefono": "3149995656",
+    "salario": 9500000,
+    "tipo": "Medico Especialista",
+    "especialidad": "Medicina Familiar",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d004F" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00BB" },
+    "idEmpleado": "MED021",
+    "nombre": "Dra. Ana Torroja",
+    "email": "atorroja.med@anosdorados.org",
+    "telefono": "3151116767",
+    "salario": 13000000,
+    "tipo": "Medico Especialista",
+    "especialidad": "Neurología",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00C4" },
+    "idEmpleado": "ENF010",
+    "nombre": "Enf. David Bisbal",
+    "email": "dbisbal.enf@metropolitano.com",
+    "telefono": "3162227878",
+    "salario": 4800000,
+    "tipo": "Enfermero/a",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00C5" },
+    "idEmpleado": "ENF011",
+    "nombre": "Enf. Yuridia",
+    "email": "yuridia.enf@institutodelrinon.com",
+    "telefono": "3173338989",
+    "salario": 4750000,
+    "tipo": "Enfermero/a",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000D" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00C6" },
+    "idEmpleado": "ENF012",
+    "nombre": "Enf. Cristian Castro",
+    "email": "ccastro.enf@digestivas.co",
+    "telefono": "3184449090",
+    "salario": 4300000,
+    "tipo": "Enfermero/a",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000F" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00C7" },
+    "idEmpleado": "ENF013",
+    "nombre": "Enf. Paulina Goto",
+    "email": "pgoto.enf@clinicamujer.com.co",
+    "telefono": "3195550101",
+    "salario": 4550000,
+    "tipo": "Enfermero/a",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0003" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00C8" },
+    "idEmpleado": "ENF014",
+    "nombre": "Enf. Sebastián Yatra",
+    "email": "syatra.enf@oftalmos.com",
+    "telefono": "3206661212",
+    "salario": 4200000,
+    "tipo": "Enfermero/a",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d001F" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00C9" },
+    "idEmpleado": "ENF015",
+    "nombre": "Enf. Danna Paola",
+    "email": "dpaola.enf@cardiosantander.com",
+    "telefono": "3217772323",
+    "salario": 4900000,
+    "tipo": "Enfermero/a",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00D3" },
+    "idEmpleado": "ADM004",
+    "nombre": "Manuel Turizo",
+    "email": "mturizo.adm@clinicamujer.com.co",
+    "telefono": "3228883434",
+    "salario": 3100000,
+    "tipo": "Personal Administrativo",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0003" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00D4" },
+    "idEmpleado": "ADM005",
+    "nombre": "Greeicy Rendón",
+    "email": "grendon.adm@cardiosantander.com",
+    "telefono": "3239994545",
+    "salario": 3400000,
+    "tipo": "Personal Administrativo",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00D5" },
+    "idEmpleado": "ADM006",
+    "nombre": "Mike Bahía",
+    "email": "mbahia.adm@pequenosol.com",
+    "telefono": "3001115656",
+    "salario": 2900000,
+    "tipo": "Personal Administrativo",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000E" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00D6" },
+    "idEmpleado": "ADM007",
+    "nombre": "Karol G",
+    "email": "karolg.adm@neumoriente.com",
+    "telefono": "3012226767",
+    "salario": 3600000,
+    "tipo": "Personal Administrativo",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d003F" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00E2" },
+    "idEmpleado": "MAN003",
+    "nombre": "J Balvin",
+    "email": "jbalvin.man@metropolitano.com",
+    "telefono": "3023337878",
+    "salario": 2100000,
+    "tipo": "Personal de Mantenimiento",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00E3" },
+    "idEmpleado": "MAN004",
+    "nombre": "Maluma",
+    "email": "maluma.man@clinicamujer.com.co",
+    "telefono": "3034448989",
+    "salario": 2000000,
+    "tipo": "Personal de Mantenimiento",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0003" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00E4" },
+    "idEmpleado": "MAN005",
+    "nombre": "Bad Bunny",
+    "email": "bbunny.man@ortotrauma.com",
+    "telefono": "3045559090",
+    "salario": 2200000,
+    "tipo": "Personal de Mantenimiento",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000B" }
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d00E5" },
+    "idEmpleado": "MAN006",
+    "nombre": "Anuel AA",
+    "email": "anuel.man@digestivas.co",
+    "telefono": "3056660101",
+    "salario": 1900000,
+    "tipo": "Personal de Mantenimiento",
+    "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000F" }
   }
-},
-{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0014"
-  },
-  "idEmpleado": "MED007",
-  "nombre": "Dra. Laura Pausini",
-  "email": "laura.pausini@anosdorados.org",
-  "telefono": "3145432109",
-  "salario": 9800,
-  "tipo": "Medico Especialista",
-  "especialidad": "Geriatría",
-  "idHospital": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0002"
-  }
-},
-{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0015"
-  },
-  "idEmpleado": "MED008",
-  "nombre": "Dr. Ricardo Arjona",
-  "email": "ricardo.arjona@clinicamujer.com.co",
-  "telefono": "3154321098",
-  "salario": 10500,
-  "tipo": "Medico Especialista",
-  "especialidad": "Ginecología",
-  "idHospital": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0003"
-  }
-},
-{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0016"
-  },
-  "idEmpleado": "ENF004",
-  "nombre": "Enf. Carlos Vives",
-  "email": "carlos.vives@cardiosantander.com",
-  "telefono": "3163210987",
-  "salario": 4100,
-  "tipo": "Enfermero/a",
-  "idHospital": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0001"
-  }
-},
-{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0017"
-  },
-  "idEmpleado": "ENF005",
-  "nombre": "Enf. Shakira Mebarak",
-  "email": "shakira.mebarak@clinicamujer.com.co",
-  "telefono": "3172109876",
-  "salario": 4200,
-  "tipo": "Enfermero/a",
-  "idHospital": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0003"
-  }
-},
-{
-  "_id": { "$oid": "60c72b2f9e4b7b1b7c2d001E" },
-  "idEmpleado": "MAN001",
-  "nombre": "Mario Castañeda",
-  "email": "mario.castaneda@cardiosantander.com",
-  "telefono": "3015558899",
-  "salario": 1800000,
-  "tipo": "Personal de Mantenimiento",
-  "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }
-}
 ]

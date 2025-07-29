@@ -1,127 +1,1205 @@
-[{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0040"
+[
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0101" },
+    "idPaciente": "PAT011",
+    "nombre": "Carlos Fuentes",
+    "segurosMedicos": ["Nueva EPS"],
+    "telefono": "3112345678",
+    "email": "carlos.fuentes@example.com",
+    "direccion": "Provenza, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-011",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7001" },
+      "fecha": { "$date": "2025-01-10T09:00:00.000Z" },
+      "diagnostico": "Hipertensión Arterial",
+      "tratamientosRealizados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0201" }],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0301" }],
+      "resultadosObtenidos": "Se inicia tratamiento y se recomienda seguimiento.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0013" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0501" }
+    }]
   },
-  "idPaciente": "PAT006",
-  "nombre": "Lucía Gil",
-  "segurosMedicos": [
-    "Sanitas EPS"
-  ],
-  "telefono": "3196547890",
-  "email": "lucia.gil@example.com",
-  "direccion": "Calle 60 #20-15, Bucaramanga",
-  "numeroHistoriaClinica": "HCL-2024-006",
-  "historialClinico": [
-    {
-      "idEntrada": {
-        "$oid": "6880104fd12d2666263a6868"
-      },
-      "fecha": {
-        "$date": "2024-07-15T10:00:00.000Z"
-      },
-      "diagnostico": "Arritmia cardíaca",
-      "tratamientosRealizados": [
-        {
-          "$oid": "60c72b2f9e4b7b1b7c2d0020"
-        }
-      ],
-      "medicamentosRecetados": [
-        {
-          "$oid": "60c72b2f9e4b7b1b7c2d0030"
-        }
-      ],
-      "resultadosObtenidos": "Procedimiento exitoso, paciente en observación.",
-      "idMedico": {
-        "$oid": "60c72b2f9e4b7b1b7c2d0013"
-      },
-      "idVisitaMedicaAsociada": {
-        "$oid": "60c72b2f9e4b7b1b7c2d0050"
-      }
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0041"
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0102" },
+    "idPaciente": "PAT012",
+    "nombre": "Sofia Ramirez",
+    "segurosMedicos": ["Sanitas EPS"],
+    "telefono": "3123456789",
+    "email": "sofia.ramirez@example.com",
+    "direccion": "Cañaveral, Floridablanca",
+    "numeroHistoriaClinica": "HCL-2025-012",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7002" },
+      "fecha": { "$date": "2025-02-05T11:30:00.000Z" },
+      "diagnostico": "Dermatitis Atópica",
+      "tratamientosRealizados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0202" }],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0302" }],
+      "resultadosObtenidos": "Se receta crema tópica y se dan recomendaciones de cuidado.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d001C" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0502" }
+    }]
   },
-  "idPaciente": "PAT007",
-  "nombre": "Manuel Torres",
-  "segurosMedicos": [
-    "Compensar EPS",
-    "Seguros Bolívar"
-  ],
-  "telefono": "3211234567",
-  "email": "manuel.torres@example.com",
-  "direccion": "Carrera 33 #80-120, Floridablanca",
-  "numeroHistoriaClinica": "HCL-2024-007",
-  "historialClinico": [
-    {
-      "idEntrada": {
-        "$oid": "6880104fd12d2666263a6869"
-      },
-      "fecha": {
-        "$date": "2024-08-01T14:30:00.000Z"
-      },
-      "diagnostico": "Evaluación de memoria por posible Alzheimer",
-      "tratamientosRealizados": [
-        {
-          "$oid": "60c72b2f9e4b7b1b7c2d0021"
-        }
-      ],
-      "medicamentosRecetados": [
-        {
-          "$oid": "60c72b2f9e4b7b1b7c2d0031"
-        }
-      ],
-      "resultadosObtenidos": "Inicio de tratamiento para ralentizar deterioro cognitivo.",
-      "idMedico": {
-        "$oid": "60c72b2f9e4b7b1b7c2d0014"
-      },
-      "idVisitaMedicaAsociada": {
-        "$oid": "60c72b2f9e4b7b1b7c2d0051"
-      }
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0042"
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0103" },
+    "idPaciente": "PAT013",
+    "nombre": "Juan Valdes",
+    "segurosMedicos": ["Sura EPS", "Allianz"],
+    "telefono": "3134567890",
+    "email": "juan.valdes@example.com",
+    "direccion": "Lagos del Cacique, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-013",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7003" },
+      "fecha": { "$date": "2025-03-12T14:00:00.000Z" },
+      "diagnostico": "Esguince de tobillo grado II",
+      "tratamientosRealizados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0203" }],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0303" }],
+      "resultadosObtenidos": "Inmovilización con férula y reposo por 2 semanas.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A1" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0503" }
+    }]
   },
-  "idPaciente": "PAT008",
-  "nombre": "Valentina Castro",
-  "segurosMedicos": [
-    "Sura EPS"
-  ],
-  "telefono": "3108887766",
-  "email": "valentina.castro@example.com",
-  "direccion": "Anillo Vial, Girón",
-  "numeroHistoriaClinica": "HCL-2024-008",
-  "historialClinico": [
-    {
-      "idEntrada": {
-        "$oid": "6880104fd12d2666263a686a"
-      },
-      "fecha": {
-        "$date": "2024-08-10T08:00:00.000Z"
-      },
-      "diagnostico": "Control prenatal de 20 semanas",
-      "tratamientosRealizados": [
-        {
-          "$oid": "60c72b2f9e4b7b1b7c2d0022"
-        }
-      ],
-      "medicamentosRecetados": [
-        {
-          "$oid": "60c72b2f9e4b7b1b7c2d0032"
-        }
-      ],
-      "resultadosObtenidos": "Feto y madre en condiciones óptimas.",
-      "idMedico": {
-        "$oid": "60c72b2f9e4b7b1b7c2d0015"
-      },
-      "idVisitaMedicaAsociada": {
-        "$oid": "60c72b2f9e4b7b1b7c2d0052"
-      }
-    }
-  ]
-}]
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0104" },
+    "idPaciente": "PAT014",
+    "nombre": "Maria Rodriguez",
+    "segurosMedicos": ["Compensar EPS"],
+    "telefono": "3145678901",
+    "email": "maria.rodriguez@example.com",
+    "direccion": "Real de Minas, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-014",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7004" },
+      "fecha": { "$date": "2025-04-20T08:15:00.000Z" },
+      "diagnostico": "Migraña Crónica",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0304" }],
+      "resultadosObtenidos": "Se ajusta medicación preventiva.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0014" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0504" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0105" },
+    "idPaciente": "PAT015",
+    "nombre": "Andres Perez",
+    "segurosMedicos": ["Coomeva EPS"],
+    "telefono": "3156789012",
+    "email": "andres.perez@example.com",
+    "direccion": "La Pera, Floridablanca",
+    "numeroHistoriaClinica": "HCL-2025-015",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7005" },
+      "fecha": { "$date": "2025-05-01T16:00:00.000Z" },
+      "diagnostico": "Gastritis Aguda",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0305" }],
+      "resultadosObtenidos": "Se prescribe tratamiento y dieta blanda.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A5" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0505" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0106" },
+    "idPaciente": "PAT016",
+    "nombre": "Laura Gomez",
+    "segurosMedicos": ["Salud Total EPS"],
+    "telefono": "3167890123",
+    "email": "laura.gomez@example.com",
+    "direccion": "El Rincón, Girón",
+    "numeroHistoriaClinica": "HCL-2025-016",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7006" },
+      "fecha": { "$date": "2025-06-18T10:00:00.000Z" },
+      "diagnostico": "Infección Urinaria",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0306" }],
+      "resultadosObtenidos": "Tratamiento con antibióticos por 7 días.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A3" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0506" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0107" },
+    "idPaciente": "PAT017",
+    "nombre": "Diego Hernandez",
+    "segurosMedicos": ["Sanitas EPS"],
+    "telefono": "3178901234",
+    "email": "diego.hernandez@example.com",
+    "direccion": "Cabecera del Llano, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-017",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7007" },
+      "fecha": { "$date": "2025-07-02T12:00:00.000Z" },
+      "diagnostico": "Rinitis Alérgica",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0307" }],
+      "resultadosObtenidos": "Se prescribe antihistamínico.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A8" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0507" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0108" },
+    "idPaciente": "PAT018",
+    "nombre": "Camila Diaz",
+    "segurosMedicos": ["Sura EPS"],
+    "telefono": "3189012345",
+    "email": "camila.diaz@example.com",
+    "direccion": "Zapamanga, Floridablanca",
+    "numeroHistoriaClinica": "HCL-2025-018",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7008" },
+      "fecha": { "$date": "2025-01-22T09:45:00.000Z" },
+      "diagnostico": "Conjuntivitis",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0308" }],
+      "resultadosObtenidos": "Se recetan gotas oftálmicas.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A6" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0508" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0109" },
+    "idPaciente": "PAT019",
+    "nombre": "Santiago Moreno",
+    "segurosMedicos": ["Nueva EPS"],
+    "telefono": "3190123456",
+    "email": "santiago.moreno@example.com",
+    "direccion": "La Cumbre, Floridablanca",
+    "numeroHistoriaClinica": "HCL-2025-019",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7009" },
+      "fecha": { "$date": "2025-02-14T15:00:00.000Z" },
+      "diagnostico": "Ansiedad Generalizada",
+      "tratamientosRealizados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0209" }],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0309" }],
+      "resultadosObtenidos": "Inicio de terapia psicológica y medicación.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A2" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0509" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0110" },
+    "idPaciente": "PAT020",
+    "nombre": "Valeria Sanchez",
+    "segurosMedicos": ["Famisanar"],
+    "telefono": "3201234567",
+    "email": "valeria.sanchez@example.com",
+    "direccion": "Ciudad Valencia, Floridablanca",
+    "numeroHistoriaClinica": "HCL-2025-020",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7010" },
+      "fecha": { "$date": "2025-03-28T18:00:00.000Z" },
+      "diagnostico": "Herida cortante en mano",
+      "tratamientosRealizados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0210" }],
+      "medicamentosRecetados": [],
+      "resultadosObtenidos": "Sutura de 3 puntos, se receta analgésico.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A7" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0510" }
+    }]
+  },
+
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0111" },
+    "idPaciente": "PAT021",
+    "nombre": "Isabella Rojas",
+    "segurosMedicos": ["Sura EPS"],
+    "telefono": "3212345678",
+    "email": "isabella.rojas@example.com",
+    "direccion": "Sotomayor, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-021",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7011" },
+      "fecha": { "$date": "2025-04-15T10:30:00.000Z" },
+      "diagnostico": "Diabetes Mellitus Tipo 2",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0311" }],
+      "resultadosObtenidos": "Se inicia tratamiento con Metformina y se educa en dieta.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0013" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0511" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0112" },
+    "idPaciente": "PAT022",
+    "nombre": "Mateo Castillo",
+    "segurosMedicos": ["Compensar EPS"],
+    "telefono": "3223456789",
+    "email": "mateo.castillo@example.com",
+    "direccion": "El Prado, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-022",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7012" },
+      "fecha": { "$date": "2025-05-20T11:00:00.000Z" },
+      "diagnostico": "Asma Bronquial",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0312" }],
+      "resultadosObtenidos": "Se prescribe inhalador de rescate y se educa en su uso.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A8" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0512" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0113" },
+    "idPaciente": "PAT023",
+    "nombre": "Luciana Ortiz",
+    "segurosMedicos": ["Sanitas EPS"],
+    "telefono": "3234567890",
+    "email": "luciana.ortiz@example.com",
+    "direccion": "La Castellana, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-023",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7013" },
+      "fecha": { "$date": "2025-06-01T09:00:00.000Z" },
+      "diagnostico": "Anemia Ferropénica",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0313" }],
+      "resultadosObtenidos": "Suplementación con sulfato ferroso.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0015" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0513" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0114" },
+    "idPaciente": "PAT024",
+    "nombre": "David Jiménez",
+    "segurosMedicos": ["Nueva EPS"],
+    "telefono": "3001112233",
+    "email": "david.jimenez@example.com",
+    "direccion": "Altamira, Girón",
+    "numeroHistoriaClinica": "HCL-2025-024",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7014" },
+      "fecha": { "$date": "2025-07-10T16:45:00.000Z" },
+      "diagnostico": "Lumbalgia Mecánica",
+      "tratamientosRealizados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0203" }],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0303" }],
+      "resultadosObtenidos": "Se recomienda terapia física y analgésicos.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A1" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0514" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0115" },
+    "idPaciente": "PAT025",
+    "nombre": "Gabriela Castro",
+    "segurosMedicos": ["Sura EPS"],
+    "telefono": "3012223344",
+    "email": "gabriela.castro@example.com",
+    "direccion": "Portal del Valle, Piedecuesta",
+    "numeroHistoriaClinica": "HCL-2025-025",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7015" },
+      "fecha": { "$date": "2025-01-30T14:20:00.000Z" },
+      "diagnostico": "Otitis Media Aguda",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0315" }],
+      "resultadosObtenidos": "Tratamiento antibiótico.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A4" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0515" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0116" },
+    "idPaciente": "PAT026",
+    "nombre": "Daniel Vargas",
+    "segurosMedicos": ["Salud Total EPS"],
+    "telefono": "3023334455",
+    "email": "daniel.vargas@example.com",
+    "direccion": "Diamante II, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-026",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7016" },
+      "fecha": { "$date": "2025-02-25T08:00:00.000Z" },
+      "diagnostico": "Reflujo Gastroesofágico",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0305" }],
+      "resultadosObtenidos": "Se prescribe inhibidor de bomba de protones.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A5" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0516" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0117" },
+    "idPaciente": "PAT027",
+    "nombre": "Martina Guzman",
+    "segurosMedicos": ["Coomeva EPS"],
+    "telefono": "3034445566",
+    "email": "martina.guzman@example.com",
+    "direccion": "La Aurora, Floridablanca",
+    "numeroHistoriaClinica": "HCL-2025-027",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7017" },
+      "fecha": { "$date": "2025-03-10T17:00:00.000Z" },
+      "diagnostico": "Hipotiroidismo",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0317" }],
+      "resultadosObtenidos": "Se inicia terapia de reemplazo hormonal.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0013" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0517" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0118" },
+    "idPaciente": "PAT028",
+    "nombre": "Felipe Rios",
+    "segurosMedicos": ["Sura EPS"],
+    "telefono": "3045556677",
+    "email": "felipe.rios@example.com",
+    "direccion": "Antonia Santos, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-028",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7018" },
+      "fecha": { "$date": "2025-04-05T13:00:00.000Z" },
+      "diagnostico": "Depresión Mayor",
+      "tratamientosRealizados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0209" }],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0318" }],
+      "resultadosObtenidos": "Se ajusta dosis de antidepresivo y se continúa terapia.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A2" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0518" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0119" },
+    "idPaciente": "PAT029",
+    "nombre": "Renata Navarro",
+    "segurosMedicos": ["Compensar EPS"],
+    "telefono": "3056667788",
+    "email": "renata.navarro@example.com",
+    "direccion": "Mutis, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-029",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7019" },
+      "fecha": { "$date": "2025-05-18T10:00:00.000Z" },
+      "diagnostico": "Faringitis Aguda",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0303" }],
+      "resultadosObtenidos": "Se recomienda reposo y analgésicos.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A9" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0519" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0120" },
+    "idPaciente": "PAT030",
+    "nombre": "Emilio Mendoza",
+    "segurosMedicos": ["Sanitas EPS"],
+    "telefono": "3101112233",
+    "email": "emilio.mendoza@example.com",
+    "direccion": "La Floresta, Floridablanca",
+    "numeroHistoriaClinica": "HCL-2025-030",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7020" },
+      "fecha": { "$date": "2025-06-22T09:30:00.000Z" },
+      "diagnostico": "Cefalea Tensional",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0303" }],
+      "resultadosObtenidos": "Se dan recomendaciones de manejo del estrés y analgésicos.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0014" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0520" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0121" },
+    "idPaciente": "PAT031",
+    "nombre": "Julieta Silva",
+    "segurosMedicos": ["Sura EPS"],
+    "telefono": "3112223344",
+    "email": "julieta.silva@example.com",
+    "direccion": "Terrazas, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-031",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7021" },
+      "fecha": { "$date": "2025-07-01T15:00:00.000Z" },
+      "diagnostico": "Control de niño sano",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0321" }],
+      "resultadosObtenidos": "Crecimiento y desarrollo adecuados para la edad.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A4" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0521" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0122" },
+    "idPaciente": "PAT032",
+    "nombre": "Joaquín Peña",
+    "segurosMedicos": ["Nueva EPS"],
+    "telefono": "3123334455",
+    "email": "joaquin.pena@example.com",
+    "direccion": "San Alonso, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-032",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7022" },
+      "fecha": { "$date": "2025-01-15T11:00:00.000Z" },
+      "diagnostico": "Gripe Común",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0303" }],
+      "resultadosObtenidos": "Manejo sintomático.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A9" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0522" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0123" },
+    "idPaciente": "PAT033",
+    "nombre": "Elisa Guerrero",
+    "segurosMedicos": ["Salud Total EPS"],
+    "telefono": "3134445566",
+    "email": "elisa.guerrero@example.com",
+    "direccion": "Bucarica, Floridablanca",
+    "numeroHistoriaClinica": "HCL-2025-033",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7023" },
+      "fecha": { "$date": "2025-02-18T16:00:00.000Z" },
+      "diagnostico": "Acné vulgar",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0302" }],
+      "resultadosObtenidos": "Se inicia tratamiento tópico.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d001C" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0523" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0124" },
+    "idPaciente": "PAT034",
+    "nombre": "Tomás Rubio",
+    "segurosMedicos": ["Compensar EPS"],
+    "telefono": "3145556677",
+    "email": "tomas.rubio@example.com",
+    "direccion": "García Rovira, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-034",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7024" },
+      "fecha": { "$date": "2025-03-21T08:30:00.000Z" },
+      "diagnostico": "Tendinitis aquílea",
+      "tratamientosRealizados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0203" }],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0303" }],
+      "resultadosObtenidos": "Se recomienda terapia física y antiinflamatorios.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A1" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0524" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0125" },
+    "idPaciente": "PAT035",
+    "nombre": "Amanda Luna",
+    "segurosMedicos": ["Sanitas EPS"],
+    "telefono": "3156667788",
+    "email": "amanda.luna@example.com",
+    "direccion": "El Bosque, Floridablanca",
+    "numeroHistoriaClinica": "HCL-2025-035",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7025" },
+      "fecha": { "$date": "2025-04-30T14:00:00.000Z" },
+      "diagnostico": "Vértigo posicional paroxístico benigno",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [],
+      "resultadosObtenidos": "Se realizan maniobras de reposicionamiento.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0014" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0525" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0126" },
+    "idPaciente": "PAT036",
+    "nombre": "Adrián Molina",
+    "segurosMedicos": ["Coomeva EPS"],
+    "telefono": "3167778899",
+    "email": "adrian.molina@example.com",
+    "direccion": "Conucos, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-036",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7026" },
+      "fecha": { "$date": "2025-05-11T12:15:00.000Z" },
+      "diagnostico": "Insomnio Primario",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0326" }],
+      "resultadosObtenidos": "Se educa en higiene del sueño y se prescribe medicación a corto plazo.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A2" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0526" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0127" },
+    "idPaciente": "PAT037",
+    "nombre": "Carolina Soto",
+    "segurosMedicos": ["Sura EPS"],
+    "telefono": "3178889900",
+    "email": "carolina.soto@example.com",
+    "direccion": "Villabel, Floridablanca",
+    "numeroHistoriaClinica": "HCL-2025-037",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7027" },
+      "fecha": { "$date": "2025-06-03T09:00:00.000Z" },
+      "diagnostico": "Chequeo ginecológico anual",
+      "tratamientosRealizados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0227" }],
+      "medicamentosRecetados": [],
+      "resultadosObtenidos": "Resultados normales.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0015" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0527" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0128" },
+    "idPaciente": "PAT038",
+    "nombre": "Benjamín Flores",
+    "segurosMedicos": ["Famisanar"],
+    "telefono": "3189990011",
+    "email": "benjamin.flores@example.com",
+    "direccion": "Rincon de la Paz, Piedecuesta",
+    "numeroHistoriaClinica": "HCL-2025-038",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7028" },
+      "fecha": { "$date": "2025-07-20T11:45:00.000Z" },
+      "diagnostico": "Cuerpo extraño en ojo",
+      "tratamientosRealizados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0228" }],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0308" }],
+      "resultadosObtenidos": "Se extrae partícula metálica, se receta antibiótico tópico.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A6" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0528" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0129" },
+    "idPaciente": "PAT039",
+    "nombre": "Olivia Vega",
+    "segurosMedicos": ["Nueva EPS"],
+    "telefono": "3191112233",
+    "email": "olivia.vega@example.com",
+    "direccion": "San Francisco, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-039",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7029" },
+      "fecha": { "$date": "2025-01-25T16:00:00.000Z" },
+      "diagnostico": "Seguimiento de Hipertensión",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0301" }],
+      "resultadosObtenidos": "Presión arterial controlada con dosis actual.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0013" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0529" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0130" },
+    "idPaciente": "PAT040",
+    "nombre": "Leonardo Paredes",
+    "segurosMedicos": ["Sanitas EPS"],
+    "telefono": "3202223344",
+    "email": "leonardo.paredes@example.com",
+    "direccion": "La Universidad, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-040",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7030" },
+      "fecha": { "$date": "2025-02-10T09:00:00.000Z" },
+      "diagnostico": "Sinusitis bacteriana",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0330" }],
+      "resultadosObtenidos": "Se prescribe tratamiento antibiótico por 10 días.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A9" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0530" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0131" },
+    "idPaciente": "PAT041",
+    "nombre": "Regina Campos",
+    "segurosMedicos": ["Compensar EPS", "Mapfre"],
+    "telefono": "3213334455",
+    "email": "regina.campos@example.com",
+    "direccion": "Lagos de Malabar, Girón",
+    "numeroHistoriaClinica": "HCL-2025-041",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7031" },
+      "fecha": { "$date": "2025-03-05T14:30:00.000Z" },
+      "diagnostico": "Fractura de radio distal",
+      "tratamientosRealizados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0231" }],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0303" }],
+      "resultadosObtenidos": "Reducción cerrada y colocación de yeso.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A1" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0531" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0132" },
+    "idPaciente": "PAT042",
+    "nombre": "Arturo Nuñez",
+    "segurosMedicos": ["Sura EPS"],
+    "telefono": "3224445566",
+    "email": "arturo.nunez@example.com",
+    "direccion": "Molinos Bajos, Floridablanca",
+    "numeroHistoriaClinica": "HCL-2025-042",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7032" },
+      "fecha": { "$date": "2025-04-18T10:00:00.000Z" },
+      "diagnostico": "EPOC (Enfermedad Pulmonar Obstructiva Crónica)",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0312" }],
+      "resultadosObtenidos": "Se ajusta tratamiento broncodilatador.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A8" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0532" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0133" },
+    "idPaciente": "PAT043",
+    "nombre": "Ximena Pardo",
+    "segurosMedicos": ["Salud Total EPS"],
+    "telefono": "3235556677",
+    "email": "ximena.pardo@example.com",
+    "direccion": "Campohermoso, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-043",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7033" },
+      "fecha": { "$date": "2025-05-25T11:00:00.000Z" },
+      "diagnostico": "Cistitis recurrente",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0306" }],
+      "resultadosObtenidos": "Se solicita urocultivo y se inicia tratamiento empírico.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A3" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0533" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0134" },
+    "idPaciente": "PAT034",
+    "nombre": "Iker Alonso",
+    "segurosMedicos": ["Coomeva EPS"],
+    "telefono": "3009876543",
+    "email": "iker.alonso@example.com",
+    "direccion": "Quintas de Don Simón, Piedecuesta",
+    "numeroHistoriaClinica": "HCL-2025-034",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7034" },
+      "fecha": { "$date": "2025-06-12T16:00:00.000Z" },
+      "diagnostico": "Queratocono",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [],
+      "resultadosObtenidos": "Se ordena topografía corneal para evaluar cross-linking.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A6" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0534" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0135" },
+    "idPaciente": "PAT035",
+    "nombre": "Aitana Ferrer",
+    "segurosMedicos": ["Nueva EPS"],
+    "telefono": "3018765432",
+    "email": "aitana.ferrer@example.com",
+    "direccion": "La Ceiba, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-035",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7035" },
+      "fecha": { "$date": "2025-07-30T10:30:00.000Z" },
+      "diagnostico": "Seguimiento Pediátrico - 2 años",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0321" }],
+      "resultadosObtenidos": "Vacunación al día, desarrollo psicomotor normal.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A4" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0535" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0136" },
+    "idPaciente": "PAT036",
+    "nombre": "Bruno Ibáñez",
+    "segurosMedicos": ["Sanitas EPS"],
+    "telefono": "3027654321",
+    "email": "bruno.ibanez@example.com",
+    "direccion": "El Refugio, Piedecuesta",
+    "numeroHistoriaClinica": "HCL-2025-036",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7036" },
+      "fecha": { "$date": "2025-01-28T08:00:00.000Z" },
+      "diagnostico": "Trastorno de Pánico",
+      "tratamientosRealizados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0209" }],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0309" }],
+      "resultadosObtenidos": "Buena respuesta a la medicación y terapia cognitivo-conductual.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A2" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0536" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0137" },
+    "idPaciente": "PAT037",
+    "nombre": "Gala Montes",
+    "segurosMedicos": ["Sura EPS"],
+    "telefono": "3036543210",
+    "email": "gala.montes@example.com",
+    "direccion": "Comuneros, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-037",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7037" },
+      "fecha": { "$date": "2025-02-11T13:45:00.000Z" },
+      "diagnostico": "Hipercolesterolemia",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0337" }],
+      "resultadosObtenidos": "Se inicia tratamiento con estatinas y se recomienda dieta baja en grasas.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0013" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0537" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0138" },
+    "idPaciente": "PAT038",
+    "nombre": "Enzo Ferri",
+    "segurosMedicos": ["Compensar EPS"],
+    "telefono": "3045432109",
+    "email": "enzo.ferri@example.com",
+    "direccion": "Mirador de la Colina, Girón",
+    "numeroHistoriaClinica": "HCL-2025-038",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7038" },
+      "fecha": { "$date": "2025-03-14T15:00:00.000Z" },
+      "diagnostico": "Tinea pedis (Pie de atleta)",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0338" }],
+      "resultadosObtenidos": "Se receta tratamiento antifúngico tópico.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d001C" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0538" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0139" },
+    "idPaciente": "PAT039",
+    "nombre": "Cloe Santos",
+    "segurosMedicos": ["Salud Total EPS"],
+    "telefono": "3054321098",
+    "email": "cloe.santos@example.com",
+    "direccion": "Limoncito, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-039",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7039" },
+      "fecha": { "$date": "2025-04-22T09:15:00.000Z" },
+      "diagnostico": "Candidiasis vaginal",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0339" }],
+      "resultadosObtenidos": "Tratamiento con óvulos vaginales.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0015" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0539" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0140" },
+    "idPaciente": "PAT040",
+    "nombre": "Thiago Roca",
+    "segurosMedicos": ["Coomeva EPS"],
+    "telefono": "3109876543",
+    "email": "thiago.roca@example.com",
+    "direccion": "Bellavista, Piedecuesta",
+    "numeroHistoriaClinica": "HCL-2025-040",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7040" },
+      "fecha": { "$date": "2025-05-08T11:00:00.000Z" },
+      "diagnostico": "Osteoartritis de rodilla",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0303" }],
+      "resultadosObtenidos": "Se recomienda fisioterapia y manejo del dolor.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0014" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0540" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0141" },
+    "idPaciente": "PAT041",
+    "nombre": "Noa Crespo",
+    "segurosMedicos": ["Sura EPS"],
+    "telefono": "3118765432",
+    "email": "noa.crespo@example.com",
+    "direccion": "La Rioja, Piedecuesta",
+    "numeroHistoriaClinica": "HCL-2025-041",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7041" },
+      "fecha": { "$date": "2025-06-19T14:00:00.000Z" },
+      "diagnostico": "Bronquitis Aguda",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0341" }],
+      "resultadosObtenidos": "Se prescribe jarabe para la tos y reposo.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A8" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0541" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0142" },
+    "idPaciente": "PAT042",
+    "nombre": "Marco Polo",
+    "segurosMedicos": ["Nueva EPS"],
+    "telefono": "3127654321",
+    "email": "marco.polo@example.com",
+    "direccion": "Alvarez, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-042",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7042" },
+      "fecha": { "$date": "2025-07-25T09:00:00.000Z" },
+      "diagnostico": "Urticaria Aguda",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0307" }],
+      "resultadosObtenidos": "Se prescribe antihistamínico y se busca posible alérgeno.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d001C" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0542" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0143" },
+    "idPaciente": "PAT043",
+    "nombre": "Mia Vidal",
+    "segurosMedicos": ["Compensar EPS"],
+    "telefono": "3136543210",
+    "email": "mia.vidal@example.com",
+    "direccion": "Bavaria, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-043",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7043" },
+      "fecha": { "$date": "2025-01-11T16:30:00.000Z" },
+      "diagnostico": "Infección de Oído Externo (Otitis del nadador)",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0315" }],
+      "resultadosObtenidos": "Se recetan gotas óticas con antibiótico.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A9" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0543" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0144" },
+    "idPaciente": "PAT044",
+    "nombre": "Hugo Reyes",
+    "segurosMedicos": ["Salud Total EPS"],
+    "telefono": "3145432109",
+    "email": "hugo.reyes@example.com",
+    "direccion": "Centro, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-044",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7044" },
+      "fecha": { "$date": "2025-02-22T10:00:00.000Z" },
+      "diagnostico": "Cálculos renales",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0303" }],
+      "resultadosObtenidos": "Manejo del dolor y se recomienda alta ingesta de líquidos.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A3" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0544" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0145" },
+    "idPaciente": "PAT045",
+    "nombre": "Lola Mora",
+    "segurosMedicos": ["Sanitas EPS"],
+    "telefono": "3154321098",
+    "email": "lola.mora@example.com",
+    "direccion": "Payador, Girón",
+    "numeroHistoriaClinica": "HCL-2025-045",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7045" },
+      "fecha": { "$date": "2025-03-29T11:00:00.000Z" },
+      "diagnostico": "Infertilidad Primaria",
+      "tratamientosRealizados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0245" }],
+      "medicamentosRecetados": [],
+      "resultadosObtenidos": "Se inician estudios de fertilidad para la pareja.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0015" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0545" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0146" },
+    "idPaciente": "PAT046",
+    "nombre": "Alex Romero",
+    "segurosMedicos": ["Coomeva EPS"],
+    "telefono": "3163210987",
+    "email": "alex.romero@example.com",
+    "direccion": "La Esmeralda, Girón",
+    "numeroHistoriaClinica": "HCL-2025-046",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7046" },
+      "fecha": { "$date": "2025-04-10T08:45:00.000Z" },
+      "diagnostico": "Glaucoma",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0346" }],
+      "resultadosObtenidos": "Se inicia tratamiento con gotas para reducir la presión intraocular.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A6" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0546" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0147" },
+    "idPaciente": "PAT047",
+    "nombre": "Vera Ocampo",
+    "segurosMedicos": ["Sura EPS"],
+    "telefono": "3172109876",
+    "email": "vera.ocampo@example.com",
+    "direccion": "El Tejar, Piedecuesta",
+    "numeroHistoriaClinica": "HCL-2025-047",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7047" },
+      "fecha": { "$date": "2025-05-15T15:00:00.000Z" },
+      "diagnostico": "Obesidad Grado I",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [],
+      "resultadosObtenidos": "Se deriva a nutrición y se recomienda plan de ejercicio.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0013" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0547" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0148" },
+    "idPaciente": "PAT048",
+    "nombre": "Pau Rivas",
+    "segurosMedicos": ["Compensar EPS"],
+    "telefono": "3181098765",
+    "email": "pau.rivas@example.com",
+    "direccion": "Nuevo Sotomayor, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-048",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7048" },
+      "fecha": { "$date": "2025-06-25T10:00:00.000Z" },
+      "diagnostico": "Rosácea",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0348" }],
+      "resultadosObtenidos": "Se prescribe metronidazol tópico.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d001C" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0548" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0149" },
+    "idPaciente": "PAT049",
+    "nombre": "Alma Rico",
+    "segurosMedicos": ["Salud Total EPS"],
+    "telefono": "3190987654",
+    "email": "alma.rico@example.com",
+    "direccion": "La Concordia, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-049",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7049" },
+      "fecha": { "$date": "2025-07-07T12:00:00.000Z" },
+      "diagnostico": "Apnea Obstructiva del Sueño",
+      "tratamientosRealizados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0249" }],
+      "medicamentosRecetados": [],
+      "resultadosObtenidos": "Se ordena polisomnografía para confirmar diagnóstico y evaluar CPAP.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A8" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0549" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0150" },
+    "idPaciente": "PAT050",
+    "nombre": "Leo Franco",
+    "segurosMedicos": ["Nueva EPS"],
+    "telefono": "3209876543",
+    "email": "leo.franco@example.com",
+    "direccion": "La Cantera, Floridablanca",
+    "numeroHistoriaClinica": "HCL-2025-050",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7050" },
+      "fecha": { "$date": "2025-01-18T09:00:00.000Z" },
+      "diagnostico": "Síndrome del Intestino Irritable",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0350" }],
+      "resultadosObtenidos": "Se recomiendan cambios en la dieta y se prescribe antiespasmódico.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A5" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0550" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0151" },
+    "idPaciente": "PAT051",
+    "nombre": "Julia Marin",
+    "segurosMedicos": ["Sura EPS"],
+    "telefono": "3218765432",
+    "email": "julia.marin@example.com",
+    "direccion": "Santa Ana, Floridablanca",
+    "numeroHistoriaClinica": "HCL-2025-051",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7051" },
+      "fecha": { "$date": "2025-02-08T14:00:00.000Z" },
+      "diagnostico": "Virus del Papiloma Humano (VPH)",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [],
+      "resultadosObtenidos": "Se programa colposcopia para seguimiento.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0015" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0551" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0152" },
+    "idPaciente": "PAT052",
+    "nombre": "Lucas Vega",
+    "segurosMedicos": ["Sanitas EPS"],
+    "telefono": "3227654321",
+    "email": "lucas.vega@example.com",
+    "direccion": "Zapamanga V, Floridablanca",
+    "numeroHistoriaClinica": "HCL-2025-052",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7052" },
+      "fecha": { "$date": "2025-03-01T10:00:00.000Z" },
+      "diagnostico": "Artritis Reumatoide",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0352" }],
+      "resultadosObtenidos": "Se inicia tratamiento con metotrexato.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0014" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0552" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0153" },
+    "idPaciente": "PAT053",
+    "nombre": "Abril Castillo",
+    "segurosMedicos": ["Compensar EPS"],
+    "telefono": "3236543210",
+    "email": "abril.castillo@example.com",
+    "direccion": "Ciudad Jardín, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-053",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7053" },
+      "fecha": { "$date": "2025-04-09T09:00:00.000Z" },
+      "diagnostico": "Contusión en rodilla",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0303" }],
+      "resultadosObtenidos": "Se recomienda reposo, hielo y antiinflamatorios.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A1" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0553" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0154" },
+    "idPaciente": "PAT054",
+    "nombre": "Oliver Ramos",
+    "segurosMedicos": ["Coomeva EPS"],
+    "telefono": "3001234567",
+    "email": "oliver.ramos@example.com",
+    "direccion": "El Carmen, Floridablanca",
+    "numeroHistoriaClinica": "HCL-2025-054",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7054" },
+      "fecha": { "$date": "2025-05-21T11:30:00.000Z" },
+      "diagnostico": "Psoriasis",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0302" }],
+      "resultadosObtenidos": "Se indica tratamiento con corticoides tópicos.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d001C" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0554" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0155" },
+    "idPaciente": "PAT055",
+    "nombre": "Zoe Herrera",
+    "segurosMedicos": ["Salud Total EPS"],
+    "telefono": "3012345678",
+    "email": "zoe.herrera@example.com",
+    "direccion": "Llanadas, Girón",
+    "numeroHistoriaClinica": "HCL-2025-055",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7055" },
+      "fecha": { "$date": "2025-06-14T15:00:00.000Z" },
+      "diagnostico": "Hiperplasia Benigna de Próstata",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0355" }],
+      "resultadosObtenidos": "Se inicia tratamiento con alfabloqueantes.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A3" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0555" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0156" },
+    "idPaciente": "PAT056",
+    "nombre": "Eric Nieves",
+    "segurosMedicos": ["Nueva EPS"],
+    "telefono": "3023456789",
+    "email": "eric.nieves@example.com",
+    "direccion": "Pan de Azúcar, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-056",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7056" },
+      "fecha": { "$date": "2025-07-02T10:15:00.000Z" },
+      "diagnostico": "Dislipidemia mixta",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0337" }],
+      "resultadosObtenidos": "Se refuerzan medidas dietéticas y se ajusta medicación.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0013" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0556" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0157" },
+    "idPaciente": "PAT057",
+    "nombre": "Sara Gallo",
+    "segurosMedicos": ["Sura EPS"],
+    "telefono": "3034567890",
+    "email": "sara.gallo@example.com",
+    "direccion": "La Represa, Piedecuesta",
+    "numeroHistoriaClinica": "HCL-2025-057",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7057" },
+      "fecha": { "$date": "2025-01-20T11:00:00.000Z" },
+      "diagnostico": "Seguimiento de Asma",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0312" }],
+      "resultadosObtenidos": "Paciente estable, continúa con tratamiento de mantenimiento.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A8" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0557" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0158" },
+    "idPaciente": "PAT058",
+    "nombre": "Hector Duran",
+    "segurosMedicos": ["Sanitas EPS"],
+    "telefono": "3045678901",
+    "email": "hector.duran@example.com",
+    "direccion": "Los Pinos, Floridablanca",
+    "numeroHistoriaClinica": "HCL-2025-058",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7058" },
+      "fecha": { "$date": "2025-02-15T15:30:00.000Z" },
+      "diagnostico": "Hemorroides externas",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0358" }],
+      "resultadosObtenidos": "Se indica tratamiento tópico y medidas higiénico-dietéticas.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A5" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0558" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0159" },
+    "idPaciente": "PAT059",
+    "nombre": "Laia Bravo",
+    "segurosMedicos": ["Compensar EPS"],
+    "telefono": "3056789012",
+    "email": "laia.bravo@example.com",
+    "direccion": "La Pedregosa, Girón",
+    "numeroHistoriaClinica": "HCL-2025-059",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7059" },
+      "fecha": { "$date": "2025-03-22T10:00:00.000Z" },
+      "diagnostico": "Catarata Senil",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [],
+      "resultadosObtenidos": "Se programa cirugía de facoemulsificación.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d00A6" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0559" }
+    }]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0160" },
+    "idPaciente": "PAT060",
+    "nombre": "Saul Ortega",
+    "segurosMedicos": ["Sura EPS", "Liberty Seguros"],
+    "telefono": "3101234567",
+    "email": "saul.ortega@example.com",
+    "direccion": "Altos de Cabecera, Bucaramanga",
+    "numeroHistoriaClinica": "HCL-2025-060",
+    "historialClinico": [{
+      "idEntrada": { "$oid": "6880104fd12d2666263a7060" },
+      "fecha": { "$date": "2025-04-12T09:00:00.000Z" },
+      "diagnostico": "Gota aguda",
+      "tratamientosRealizados": [],
+      "medicamentosRecetados": [{ "$oid": "60c72b2f9e4b7b1b7c2d0360" }],
+      "resultadosObtenidos": "Se prescribe colchicina y se recomienda dieta baja en purinas.",
+      "idMedico": { "$oid": "60c72b2f9e4b7b1b7c2d0014" },
+      "idVisitaMedicaAsociada": { "$oid": "60c72b2f9e4b7b1b7c2d0560" }
+    }]
+  }
+]

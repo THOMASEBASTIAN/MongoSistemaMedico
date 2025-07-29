@@ -1,54 +1,946 @@
-[{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0030"
+[
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0601" },
+    "nombre": "Acetaminofén 500mg",
+    "fabricante": "Genéricos de Colombia",
+    "tipo": "Analgésico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 1500 },
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d004F" }, "cantidad": 800 }
+    ]
   },
-  "nombre": "Clopidogrel 75mg",
-  "fabricante": "CardioPharma",
-  "tipo": "Antiplaquetario",
-  "inventarioPorHospital": [
-    {
-      "idHospital": {
-        "$oid": "60c72b2f9e4b7b1b7c2d0001"
-      },
-      "cantidad": 500
-    },
-    {
-      "idHospital": {
-        "$oid": "60c72b2f9e4b7b1b7c1d7e04"
-      },
-      "cantidad": 150
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0031"
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0602" },
+    "nombre": "Ibuprofeno 400mg",
+    "fabricante": "PharmaGen",
+    "tipo": "AINE",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000B" }, "cantidad": 1200 },
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 2000 }
+    ]
   },
-  "nombre": "Donepezilo 10mg",
-  "fabricante": "NeuroGen",
-  "tipo": "Inhibidor de la colinesterasa",
-  "inventarioPorHospital": [
-    {
-      "idHospital": {
-        "$oid": "60c72b2f9e4b7b1b7c2d0002"
-      },
-      "cantidad": 200
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0032"
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0603" },
+    "nombre": "Diclofenaco 50mg",
+    "fabricante": "BioSalud",
+    "tipo": "AINE",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000B" }, "cantidad": 700 }
+    ]
   },
-  "nombre": "Ácido Fólico 5mg",
-  "fabricante": "MaternaCare",
-  "tipo": "Vitamina",
-  "inventarioPorHospital": [
-    {
-      "idHospital": {
-        "$oid": "60c72b2f9e4b7b1b7c2d0003"
-      },
-      "cantidad": 1000
-    }
-  ]
-}]
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0604" },
+    "nombre": "Naproxeno 250mg",
+    "fabricante": "Med-Life",
+    "tipo": "AINE",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }, "cantidad": 600 },
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000B" }, "cantidad": 450 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0605" },
+    "nombre": "Tramadol 50mg",
+    "fabricante": "PharmaGen",
+    "tipo": "Analgésico Opioide",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 300 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0606" },
+    "nombre": "Morfina Clorhidrato 10mg/mL Ampolla",
+    "fabricante": "Insumos Hospitalarios",
+    "tipo": "Analgésico Opioide",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000A" }, "cantidad": 150 },
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 200 }
+    ]
+  },
+  
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0607" },
+    "nombre": "Amoxicilina 500mg",
+    "fabricante": "Genéricos de Colombia",
+    "tipo": "Antibiótico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d004F" }, "cantidad": 1000 },
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000E" }, "cantidad": 800 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0608" },
+    "nombre": "Azitromicina 500mg",
+    "fabricante": "BioSalud",
+    "tipo": "Antibiótico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d003F" }, "cantidad": 500 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0609" },
+    "nombre": "Ciprofloxacino 500mg",
+    "fabricante": "PharmaGen",
+    "tipo": "Antibiótico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000D" }, "cantidad": 400 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0610" },
+    "nombre": "Ceftriaxona 1g Vial",
+    "fabricante": "Insumos Hospitalarios",
+    "tipo": "Antibiótico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 600 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0611" },
+    "nombre": "Doxiciclina 100mg",
+    "fabricante": "Med-Life",
+    "tipo": "Antibiótico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000C" }, "cantidad": 300 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0612" },
+    "nombre": "Clindamicina 300mg",
+    "fabricante": "BioSalud",
+    "tipo": "Antibiótico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000B" }, "cantidad": 250 }
+    ]
+  },
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0613" },
+    "nombre": "Losartán 50mg",
+    "fabricante": "Genéricos de Colombia",
+    "tipo": "Antihipertensivo",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 2500 },
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }, "cantidad": 1800 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0614" },
+    "nombre": "Amlodipino 10mg",
+    "fabricante": "PharmaGen",
+    "tipo": "Antihipertensivo",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 1700 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0615" },
+    "nombre": "Enalapril 20mg",
+    "fabricante": "BioSalud",
+    "tipo": "Antihipertensivo",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d004F" }, "cantidad": 3000 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0616" },
+    "nombre": "Metoprolol 100mg",
+    "fabricante": "CardioPharma",
+    "tipo": "Antihipertensivo",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 900 }
+    ]
+  },
+  
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0617" },
+    "nombre": "Metformina 850mg",
+    "fabricante": "Genéricos de Colombia",
+    "tipo": "Antidiabético",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }, "cantidad": 2200 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0618" },
+    "nombre": "Glibenclamida 5mg",
+    "fabricante": "PharmaGen",
+    "tipo": "Antidiabético",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d004F" }, "cantidad": 1000 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0619" },
+    "nombre": "Insulina Glargina 100 UI/mL",
+    "fabricante": "BioSalud",
+    "tipo": "Insulina",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 300 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0620" },
+    "nombre": "Sitagliptina 100mg",
+    "fabricante": "Med-Life",
+    "tipo": "Antidiabético",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }, "cantidad": 200 }
+    ]
+  },
+  
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0621" },
+    "nombre": "Sertralina 50mg",
+    "fabricante": "NeuroGen",
+    "tipo": "Antidepresivo ISRS",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000C" }, "cantidad": 800 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0622" },
+    "nombre": "Fluoxetina 20mg",
+    "fabricante": "Genéricos de Colombia",
+    "tipo": "Antidepresivo ISRS",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000C" }, "cantidad": 1200 },
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d004F" }, "cantidad": 900 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0623" },
+    "nombre": "Alprazolam 0.5mg",
+    "fabricante": "PharmaGen",
+    "tipo": "Ansiolítico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000C" }, "cantidad": 500 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0624" },
+    "nombre": "Clonazepam 2mg",
+    "fabricante": "NeuroGen",
+    "tipo": "Ansiolítico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000C" }, "cantidad": 700 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0625" },
+    "nombre": "Ácido Valproico 250mg",
+    "fabricante": "NeuroGen",
+    "tipo": "Anticonvulsivante",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }, "cantidad": 400 }
+    ]
+  },
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0626" },
+    "nombre": "Loratadina 10mg",
+    "fabricante": "Genéricos de Colombia",
+    "tipo": "Antihistamínico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d003F" }, "cantidad": 1500 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0627" },
+    "nombre": "Cetirizina 10mg",
+    "fabricante": "BioSalud",
+    "tipo": "Antihistamínico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000E" }, "cantidad": 1300 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0628" },
+    "nombre": "Salbutamol Inhalador 100mcg",
+    "fabricante": "PharmaGen",
+    "tipo": "Broncodilatador",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d003F" }, "cantidad": 800 },
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 1000 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0629" },
+    "nombre": "Budesonida Inhalador 200mcg",
+    "fabricante": "Med-Life",
+    "tipo": "Corticoide Inhalado",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d003F" }, "cantidad": 450 }
+    ]
+  },
+  
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0630" },
+    "nombre": "Omeprazol 20mg",
+    "fabricante": "Genéricos de Colombia",
+    "tipo": "Protector Gástrico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000F" }, "cantidad": 2000 },
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }, "cantidad": 1500 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0631" },
+    "nombre": "Loperamida 2mg",
+    "fabricante": "BioSalud",
+    "tipo": "Antidiarreico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d004F" }, "cantidad": 500 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0632" },
+    "nombre": "Metoclopramida 10mg",
+    "fabricante": "PharmaGen",
+    "tipo": "Antiemético",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000A" }, "cantidad": 400 }
+    ]
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0633" },
+    "nombre": "Levotiroxina 50mcg",
+    "fabricante": "Med-Life",
+    "tipo": "Hormona Tiroidea",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 900 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0634" },
+    "nombre": "Prednisona 5mg",
+    "fabricante": "Genéricos de Colombia",
+    "tipo": "Corticoide Sistémico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000B" }, "cantidad": 800 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0635" },
+    "nombre": "Anticonceptivos Orales (Drospirenona/Etinilestradiol)",
+    "fabricante": "MaternaCare",
+    "tipo": "Anticonceptivo Hormonal",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0003" }, "cantidad": 600 }
+    ]
+  },
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0636" },
+    "nombre": "Atorvastatina 20mg",
+    "fabricante": "CardioPharma",
+    "tipo": "Estatina",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 1800 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0637" },
+    "nombre": "Gemfibrozilo 600mg",
+    "fabricante": "BioSalud",
+    "tipo": "Fibrato",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 500 }
+    ]
+  },
+  
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0638" },
+    "nombre": "Vitamina D3 1000 UI",
+    "fabricante": "NutriSalud",
+    "tipo": "Vitamina",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }, "cantidad": 1200 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0639" },
+    "nombre": "Calcio + Vitamina D",
+    "fabricante": "NutriSalud",
+    "tipo": "Suplemento Mineral",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }, "cantidad": 1500 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0640" },
+    "nombre": "Sulfato Ferroso 300mg",
+    "fabricante": "Genéricos de Colombia",
+    "tipo": "Suplemento de Hierro",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0003" }, "cantidad": 900 }
+    ]
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0641" },
+    "nombre": "Mupirocina Ungüento 2%",
+    "fabricante": "PielSana Labs",
+    "tipo": "Antibiótico Tópico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000C" }, "cantidad": 350 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0642" },
+    "nombre": "Clotrimazol Crema 1%",
+    "fabricante": "PielSana Labs",
+    "tipo": "Antifúngico Tópico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000C" }, "cantidad": 500 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0643" },
+    "nombre": "Hidrocortisona Crema 1%",
+    "fabricante": "PielSana Labs",
+    "tipo": "Corticoide Tópico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000C" }, "cantidad": 600 }
+    ]
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0644" },
+    "nombre": "Latanoprost Gotas Oftálmicas",
+    "fabricante": "Oftalmos",
+    "tipo": "Antiglaucomatoso",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d001F" }, "cantidad": 200 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0645" },
+    "nombre": "Tobramicina Gotas Oftálmicas",
+    "fabricante": "Oftalmos",
+    "tipo": "Antibiótico Oftálmico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d001F" }, "cantidad": 400 }
+    ]
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0646" },
+    "nombre": "Paclitaxel 30mg/5mL",
+    "fabricante": "OncoPharma",
+    "tipo": "Quimioterapéutico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000A" }, "cantidad": 100 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0647" },
+    "nombre": "Cisplatino 50mg Vial",
+    "fabricante": "OncoPharma",
+    "tipo": "Quimioterapéutico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000A" }, "cantidad": 80 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0648" },
+    "nombre": "Tamoxifeno 20mg",
+    "fabricante": "OncoPharma",
+    "tipo": "Terapia Hormonal",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000A" }, "cantidad": 300 }
+    ]
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0649" },
+    "nombre": "Alopurinol 300mg",
+    "fabricante": "Genéricos de Colombia",
+    "tipo": "Antigotoso",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }, "cantidad": 400 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0650" },
+    "nombre": "Furosemida 40mg",
+    "fabricante": "BioSalud",
+    "tipo": "Diurético",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 1100 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0651" },
+    "nombre": "Espironolactona 25mg",
+    "fabricante": "CardioPharma",
+    "tipo": "Diurético",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 600 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0652" },
+    "nombre": "Tamsulosina 0.4mg",
+    "fabricante": "Med-Life",
+    "tipo": "Alfabloqueante",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000D" }, "cantidad": 500 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0653" },
+    "nombre": "Warfarina 5mg",
+    "fabricante": "CardioPharma",
+    "tipo": "Anticoagulante",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 300 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0654" },
+    "nombre": "Diazepam 10mg",
+    "fabricante": "NeuroGen",
+    "tipo": "Ansiolítico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 450 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0655" },
+    "nombre": "Adrenalina 1mg/mL Ampolla",
+    "fabricante": "Insumos Hospitalarios",
+    "tipo": "Estimulante Cardíaco",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 500 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0656" },
+    "nombre": "Aciclovir 200mg",
+    "fabricante": "PharmaGen",
+    "tipo": "Antiviral",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d004F" }, "cantidad": 300 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0657" },
+    "nombre": "Ondansetrón 8mg",
+    "fabricante": "OncoPharma",
+    "tipo": "Antiemético",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000A" }, "cantidad": 600 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0658" },
+    "nombre": "Metotrexato 2.5mg",
+    "fabricante": "BioSalud",
+    "tipo": "Antirreumático",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }, "cantidad": 200 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0659" },
+    "nombre": "Digoxina 0.25mg",
+    "fabricante": "CardioPharma",
+    "tipo": "Inotrópico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 150 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0660" },
+    "nombre": "Hierro Sacarato Ampolla",
+    "fabricante": "Insumos Hospitalarios",
+    "tipo": "Suplemento de Hierro IV",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000D" }, "cantidad": 250 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0661" },
+    "nombre": "Nifedipino 30mg",
+    "fabricante": "Genéricos de Colombia",
+    "tipo": "Antihipertensivo",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0003" }, "cantidad": 700 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0662" },
+    "nombre": "Gabapentina 300mg",
+    "fabricante": "NeuroGen",
+    "tipo": "Anticonvulsivante",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }, "cantidad": 500 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0663" },
+    "nombre": "Hidroclorotiazida 25mg",
+    "fabricante": "Genéricos de Colombia",
+    "tipo": "Diurético",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d004F" }, "cantidad": 2000 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0664" },
+    "nombre": "Risperidona 2mg",
+    "fabricante": "NeuroGen",
+    "tipo": "Antipsicótico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000C" }, "cantidad": 300 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0665" },
+    "nombre": "Isotretinoína 20mg",
+    "fabricante": "PielSana Labs",
+    "tipo": "Retinoide",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000C" }, "cantidad": 100 }
+    ]
+  },
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0666" },
+    "nombre": "Finasterida 5mg",
+    "fabricante": "Med-Life",
+    "tipo": "Inhibidor 5-alfa-reductasa",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000D" }, "cantidad": 400 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0667" },
+    "nombre": "Solución Salina Normal 0.9% 1000mL",
+    "fabricante": "Insumos Hospitalarios",
+    "tipo": "Solución Intravenosa",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 3000 },
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 2500 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0668" },
+    "nombre": "Dextrosa en Agua Destilada 5% 500mL",
+    "fabricante": "Insumos Hospitalarios",
+    "tipo": "Solución Intravenosa",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 2000 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0669" },
+    "nombre": "Amiodarona 200mg",
+    "fabricante": "CardioPharma",
+    "tipo": "Antiarrítmico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 250 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0670" },
+    "nombre": "Ketorolaco 30mg Ampolla",
+    "fabricante": "PharmaGen",
+    "tipo": "AINE",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 700 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0671" },
+    "nombre": "Clobetasol Propionato Crema",
+    "fabricante": "PielSana Labs",
+    "tipo": "Corticoide Tópico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000C" }, "cantidad": 150 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0672" },
+    "nombre": "Ácido Ibandrónico 150mg",
+    "fabricante": "BioSalud",
+    "tipo": "Bifosfonato",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }, "cantidad": 100 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0673" },
+    "nombre": "Celecoxib 200mg",
+    "fabricante": "Med-Life",
+    "tipo": "AINE (COX-2)",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000B" }, "cantidad": 400 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0674" },
+    "nombre": "Montelukast 10mg",
+    "fabricante": "PharmaGen",
+    "tipo": "Antagonista de Leucotrienos",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d003F" }, "cantidad": 550 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0675" },
+    "nombre": "Pregabalina 75mg",
+    "fabricante": "NeuroGen",
+    "tipo": "Analgésico Neuropático",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }, "cantidad": 600 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0676" },
+    "nombre": "Oseltamivir 75mg",
+    "fabricante": "BioSalud",
+    "tipo": "Antiviral",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d004F" }, "cantidad": 200 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0677" },
+    "nombre": "Nitroglicerina Sublingual",
+    "fabricante": "CardioPharma",
+    "tipo": "Vasodilatador",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 100 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0678" },
+    "nombre": "Lactulosa Jarabe",
+    "fabricante": "Genéricos de Colombia",
+    "tipo": "Laxante",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }, "cantidad": 300 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0679" },
+    "nombre": "Itraconazol 100mg",
+    "fabricante": "PielSana Labs",
+    "tipo": "Antifúngico Sistémico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000C" }, "cantidad": 150 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0680" },
+    "nombre": "Heparina Sódica Vial",
+    "fabricante": "Insumos Hospitalarios",
+    "tipo": "Anticoagulante",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 400 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0681" },
+    "nombre": "Propofol 1% Ampolla",
+    "fabricante": "Insumos Hospitalarios",
+    "tipo": "Anestésico General",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 200 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0682" },
+    "nombre": "Lidocaína Jalea 2%",
+    "fabricante": "Genéricos de Colombia",
+    "tipo": "Anestésico Local",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000D" }, "cantidad": 500 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0683" },
+    "nombre": "Metilprednisolona 40mg Vial",
+    "fabricante": "Med-Life",
+    "tipo": "Corticoide Sistémico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 300 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0684" },
+    "nombre": "Eritropoyetina 4000 UI Jeringa",
+    "fabricante": "BioSalud",
+    "tipo": "Factor Estimulante",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000D" }, "cantidad": 100 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0685" },
+    "nombre": "Midazolam 15mg/3mL Ampolla",
+    "fabricante": "Insumos Hospitalarios",
+    "tipo": "Sedante",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 250 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0686" },
+    "nombre": "Dimenhidrinato 50mg",
+    "fabricante": "Genéricos de Colombia",
+    "tipo": "Antiemético",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d004F" }, "cantidad": 800 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0687" },
+    "nombre": "Fenitoína 100mg",
+    "fabricante": "NeuroGen",
+    "tipo": "Anticonvulsivante",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }, "cantidad": 350 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0688" },
+    "nombre": "Carbamazepina 200mg",
+    "fabricante": "NeuroGen",
+    "tipo": "Anticonvulsivante",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000C" }, "cantidad": 400 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0689" },
+    "nombre": "Colchicina 0.5mg",
+    "fabricante": "BioSalud",
+    "tipo": "Antigotoso",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0002" }, "cantidad": 200 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0690" },
+    "nombre": "Permetrina Crema 5%",
+    "fabricante": "PielSana Labs",
+    "tipo": "Escabicida",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000C" }, "cantidad": 100 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0691" },
+    "nombre": "Yodo Povidona Solución",
+    "fabricante": "Insumos Hospitalarios",
+    "tipo": "Antiséptico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 1000 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0692" },
+    "nombre": "Clorhexidina Solución 2%",
+    "fabricante": "Insumos Hospitalarios",
+    "tipo": "Antiséptico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000B" }, "cantidad": 800 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0693" },
+    "nombre": "Rivaroxabán 20mg",
+    "fabricante": "CardioPharma",
+    "tipo": "Anticoagulante",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 300 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0694" },
+    "nombre": "Sulfato de Magnesio Ampolla",
+    "fabricante": "Insumos Hospitalarios",
+    "tipo": "Electrolito",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0003" }, "cantidad": 400 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0695" },
+    "nombre": "Potasio Cloruro Ampolla",
+    "fabricante": "Insumos Hospitalarios",
+    "tipo": "Electrolito",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 500 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0696" },
+    "nombre": "Bicarbonato de Sodio Vial",
+    "fabricante": "Insumos Hospitalarios",
+    "tipo": "Alcalinizante",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 300 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0697" },
+    "nombre": "Calcio Gluconato Ampolla",
+    "fabricante": "Insumos Hospitalarios",
+    "tipo": "Electrolito",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 200 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0698" },
+    "nombre": "Dexametasona 4mg Ampolla",
+    "fabricante": "Med-Life",
+    "tipo": "Corticoide Sistémico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d002F" }, "cantidad": 600 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0699" },
+    "nombre": "Apixabán 5mg",
+    "fabricante": "CardioPharma",
+    "tipo": "Anticoagulante",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 250 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0700" },
+    "nombre": "Rosuvastatina 10mg",
+    "fabricante": "CardioPharma",
+    "tipo": "Estatina",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d0001" }, "cantidad": 1200 }
+    ]
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0701" },
+    "nombre": "Ibuprofeno Jarabe Pediátrico",
+    "fabricante": "PharmaGen",
+    "tipo": "AINE Pediátrico",
+    "inventarioPorHospital": [
+      { "idHospital": { "$oid": "60c72b2f9e4b7b1b7c2d000E" }, "cantidad": 800 }
+    ]
+  }
+]

@@ -51,4 +51,130 @@
     "Fertilidad",
     "Pediatría Neonatal"
   ]
-}]
+},
+  {
+    "_id": {
+      "$oid": "60c72b2f9e4b7b1b7c2d000A"
+    },
+    "nombre": "Centro Oncológico de Santander",
+    "telefono": "555-8010",
+    "direccion": "Anillo Vial, Floridablanca",
+    "email": "info@oncosantander.com",
+    "idDirectorGeneral": {
+      "$oid": "60c72b2f9e4b7b1b7c2d00A0"
+    },
+    "areasEspecializadas": [
+      "Oncología Clínica",
+      "Radioterapia",
+      "Cirugía Oncológica",
+      "Cuidados Paliativos"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60c72b2f9e4b7b1b7c2d000B"
+    },
+    "nombre": "Clínica de Ortopedia y Traumatología",
+    "telefono": "555-8020",
+    "direccion": "Calle 105 #20-15, Piedecuesta",
+    "email": "citas@ortotrauma.com",
+    "idDirectorGeneral": {
+      "$oid": "60c72b2f9e4b7b1b7c2d00A1"
+    },
+    "areasEspecializadas": [
+      "Ortopedia",
+      "Traumatología",
+      "Medicina Deportiva",
+      "Fisioterapia"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60c72b2f9e4b7b1b7c2d000C"
+    },
+    "nombre": "Hospital Psiquiátrico San Camilo",
+    "telefono": "555-8030",
+    "direccion": "Vereda Chocoita, Girón",
+    "email": "contacto@sancamilo.org",
+    "idDirectorGeneral": {
+      "$oid": "60c72b2f9e4b7b1b7c2d00A2"
+    },
+    "areasEspecializadas": [
+      "Psiquiatría",
+      "Psicología Clínica",
+      "Terapia Ocupacional",
+      "Neuropsicología"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60c72b2f9e4b7b1b7c2d000D"
+    },
+    "nombre": "Instituto del Riñón y Urología",
+    "telefono": "555-8040",
+    "direccion": "Carrera 33 #48-10, Bucaramanga",
+    "email": "info@institutodelrinon.com",
+    "idDirectorGeneral": {
+      "$oid": "60c72b2f9e4b7b1b7c2d00A3"
+    },
+    "areasEspecializadas": [
+      "Nefrología",
+      "Urología",
+      "Diálisis",
+      "Transplante Renal"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60c72b2f9e4b7b1b7c2d000E"
+    },
+    "nombre": "Clínica Pediátrica 'Mi Pequeño Sol'",
+    "telefono": "555-8050",
+    "direccion": "Cañaveral, Floridablanca",
+    "email": "atencion@pequenosol.com",
+    "idDirectorGeneral": {
+      "$oid": "60c72b2f9e4b7b1b7c2d00A4"
+    },
+    "areasEspecializadas": [
+      "Pediatría General",
+      "Neonatología",
+      "Cardiología Pediátrica",
+      "Neurología Infantil"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60c72b2f9e4b7b1b7c2d000F"
+    },
+    "nombre": "Centro de Enfermedades Digestivas",
+    "telefono": "555-8060",
+    "direccion": "Calle 56 #30-30, Bucaramanga",
+    "email": "citas@digestivas.co",
+    "idDirectorGeneral": {
+      "$oid": "60c72b2f9e4b7b1b7c2d00A5"
+    },
+    "areasEspecializadas": [
+      "Gastroenterología",
+      "Endoscopia",
+      "Hepatología"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60c72b2f9e4b7b1b7c2d001F"
+    },
+    "nombre": "Clínica Oftalmológica de Santander (Oftalmos)",
+    "telefono": "555-8070",
+    "direccion": "Centro Comercial La Quinta, Bucaramanga",
+    "email": "contacto@oftalmos.com",
+    "idDirectorGeneral": {
+      "$oid": "60c72b2f9e4b7b1b7c2d00A6"
+    },
+    "areasEspecializadas": [
+      "Oftalmología",
+      "Cirugía Refractiva",
+      "Retina y Vítreo"
+    ]
+  }
+
+]

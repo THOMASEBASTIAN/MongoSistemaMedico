@@ -1,27 +1,741 @@
-[{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0020"
+[
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0401" },
+    "nombre": "Ecocardiograma Transtorácico",
+    "descripcion": "Ultrasonido del corazón para evaluar su estructura y función.",
+    "areaMedicaRelacionada": "Cardiología",
+    "costo": 350
   },
-  "nombre": "Cateterismo Cardíaco",
-  "descripcion": "Procedimiento para diagnosticar y tratar afecciones de las arterias coronarias.",
-  "areaMedicaRelacionada": "Cardiología",
-  "costo": 4500
-},
-{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0021"
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0402" },
+    "nombre": "Prueba de Esfuerzo (Ergometría)",
+    "descripcion": "Evalúa la respuesta del corazón al ejercicio físico en una cinta rodante.",
+    "areaMedicaRelacionada": "Cardiología",
+    "costo": 280
   },
-  "nombre": "Terapia de Estimulación Cognitiva",
-  "descripcion": "Ejercicios y actividades para mantener o mejorar las funciones cognitivas en adultos mayores.",
-  "areaMedicaRelacionada": "Geriatría",
-  "costo": 90
-},
-{
-  "_id": {
-    "$oid": "60c72b2f9e4b7b1b7c2d0022"
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0403" },
+    "nombre": "Angioplastia Coronaria con Stent",
+    "descripcion": "Procedimiento para abrir arterias coronarias bloqueadas usando un balón y un stent.",
+    "areaMedicaRelacionada": "Cardiología",
+    "costo": 8500
   },
-  "nombre": "Monitoreo Fetal",
-  "descripcion": "Vigilancia de la frecuencia cardíaca y bienestar del feto durante el embarazo y parto.",
-  "areaMedicaRelacionada": "Obstetricia",
-  "costo": 150
-}]
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0404" },
+    "nombre": "Cirugía de Bypass Coronario",
+    "descripcion": "Crea una nueva ruta para que la sangre fluya alrededor de una arteria bloqueada.",
+    "areaMedicaRelacionada": "Cirugía Cardiovascular",
+    "costo": 25000
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0405" },
+    "nombre": "Implantación de Marcapasos",
+    "descripcion": "Colocación de un dispositivo electrónico para regular el ritmo cardíaco.",
+    "areaMedicaRelacionada": "Cardiología",
+    "costo": 7000
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0406" },
+    "nombre": "Monitoreo Holter 24h",
+    "descripcion": "Registro continuo del ritmo cardíaco durante 24 horas.",
+    "areaMedicaRelacionada": "Cardiología",
+    "costo": 200
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0407" },
+    "nombre": "Artroscopia de Rodilla",
+    "descripcion": "Cirugía mínimamente invasiva para diagnosticar y tratar problemas de rodilla.",
+    "areaMedicaRelacionada": "Ortopedia",
+    "costo": 5500
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0408" },
+    "nombre": "Reducción y Fijación de Fractura",
+    "descripcion": "Alineación y estabilización de un hueso roto con placas, tornillos o clavos.",
+    "areaMedicaRelacionada": "Traumatología",
+    "costo": 6500
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0409" },
+    "nombre": "Reemplazo Total de Cadera",
+    "descripcion": "Sustitución de la articulación de la cadera por una prótesis artificial.",
+    "areaMedicaRelacionada": "Ortopedia",
+    "costo": 18000
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0410" },
+    "nombre": "Infiltración Articular",
+    "descripcion": "Inyección de corticosteroides o ácido hialurónico en una articulación.",
+    "areaMedicaRelacionada": "Ortopedia",
+    "costo": 180
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0411" },
+    "nombre": "Sesión de Fisioterapia Ortopédica",
+    "descripcion": "Terapia física para rehabilitación de lesiones musculoesqueléticas.",
+    "areaMedicaRelacionada": "Fisioterapia",
+    "costo": 70
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0412" },
+    "nombre": "Citología Vaginal (Papanicolau)",
+    "descripcion": "Prueba para detectar cáncer de cuello uterino y otras anomalías.",
+    "areaMedicaRelacionada": "Ginecología",
+    "costo": 60
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0413" },
+    "nombre": "Ecografía Transvaginal",
+    "descripcion": "Ultrasonido de los órganos pélvicos femeninos.",
+    "areaMedicaRelacionada": "Ginecología",
+    "costo": 120
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0414" },
+    "nombre": "Parto Vaginal",
+    "descripcion": "Asistencia médica durante el nacimiento de un bebé por vía vaginal.",
+    "areaMedicaRelacionada": "Obstetricia",
+    "costo": 3500
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0415" },
+    "nombre": "Cesárea",
+    "descripcion": "Cirugía para dar a luz a un bebé a través de una incisión en el abdomen.",
+    "areaMedicaRelacionada": "Obstetricia",
+    "costo": 5500
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0416" },
+    "nombre": "Colposcopia",
+    "descripcion": "Examen visual detallado del cuello uterino, la vagina y la vulva.",
+    "areaMedicaRelacionada": "Ginecología",
+    "costo": 250
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0417" },
+    "nombre": "Inserción de DIU",
+    "descripcion": "Colocación de un dispositivo intrauterino como método anticonceptivo.",
+    "areaMedicaRelacionada": "Ginecología",
+    "costo": 300
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0418" },
+    "nombre": "Endoscopia Digestiva Alta",
+    "descripcion": "Examen del esófago, estómago y duodeno con un endoscopio.",
+    "areaMedicaRelacionada": "Gastroenterología",
+    "costo": 450
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0419" },
+    "nombre": "Colonoscopia",
+    "descripcion": "Examen del interior del colon y el recto.",
+    "areaMedicaRelacionada": "Gastroenterología",
+    "costo": 600
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0420" },
+    "nombre": "Biopsia Gástrica",
+    "descripcion": "Toma de una muestra de tejido del estómago para análisis.",
+    "areaMedicaRelacionada": "Gastroenterología",
+    "costo": 150
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0421" },
+    "nombre": "Polipectomía Endoscópica",
+    "descripcion": "Extirpación de pólipos durante una endoscopia o colonoscopia.",
+    "areaMedicaRelacionada": "Gastroenterología",
+    "costo": 800
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0422" },
+    "nombre": "Electroencefalograma (EEG)",
+    "descripcion": "Registro de la actividad eléctrica del cerebro.",
+    "areaMedicaRelacionada": "Neurología",
+    "costo": 220
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0423" },
+    "nombre": "Electromiografía (EMG)",
+    "descripcion": "Evaluación de la salud de los músculos y las células nerviosas que los controlan.",
+    "areaMedicaRelacionada": "Neurología",
+    "costo": 300
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0424" },
+    "nombre": "Consulta Psiquiátrica",
+    "descripcion": "Evaluación, diagnóstico y tratamiento de trastornos mentales.",
+    "areaMedicaRelacionada": "Psiquiatría",
+    "costo": 120
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0425" },
+    "nombre": "Sesión de Terapia Psicológica",
+    "descripcion": "Tratamiento de problemas emocionales y de comportamiento.",
+    "areaMedicaRelacionada": "Psicología Clínica",
+    "costo": 80
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0426" },
+    "nombre": "Punción Lumbar",
+    "descripcion": "Extracción de líquido cefalorraquídeo para diagnóstico.",
+    "areaMedicaRelacionada": "Neurología",
+    "costo": 400
+  },
+
+ 
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0427" },
+    "nombre": "Sesión de Quimioterapia",
+    "descripcion": "Administración de fármacos para destruir células cancerosas.",
+    "areaMedicaRelacionada": "Oncología Clínica",
+    "costo": 1500
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0428" },
+    "nombre": "Sesión de Radioterapia",
+    "descripcion": "Uso de radiación de alta energía para eliminar células cancerosas.",
+    "areaMedicaRelacionada": "Radioterapia",
+    "costo": 1200
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0429" },
+    "nombre": "Biopsia por Punción (PAAF)",
+    "descripcion": "Extracción de células de un tumor con una aguja fina.",
+    "areaMedicaRelacionada": "Oncología",
+    "costo": 350
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0430" },
+    "nombre": "Mastectomía",
+    "descripcion": "Cirugía para extirpar uno o ambos senos.",
+    "areaMedicaRelacionada": "Cirugía Oncológica",
+    "costo": 9000
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0431" },
+    "nombre": "Consulta de Crecimiento y Desarrollo",
+    "descripcion": "Seguimiento del crecimiento físico y desarrollo psicomotor del niño.",
+    "areaMedicaRelacionada": "Pediatría General",
+    "costo": 80
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0432" },
+    "nombre": "Esquema de Vacunación Pediátrica",
+    "descripcion": "Administración de vacunas según el calendario nacional.",
+    "areaMedicaRelacionada": "Pediatría General",
+    "costo": 0
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0433" },
+    "nombre": "Nebulización",
+    "descripcion": "Administración de medicamento en forma de vapor para tratar problemas respiratorios.",
+    "areaMedicaRelacionada": "Pediatría General",
+    "costo": 50
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0434" },
+    "nombre": "Frenectomía Lingual",
+    "descripcion": "Cirugía menor para liberar el frenillo lingual corto en bebés.",
+    "areaMedicaRelacionada": "Pediatría General",
+    "costo": 400
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0435" },
+    "nombre": "Sesión de Hemodiálisis",
+    "descripcion": "Procedimiento para eliminar desechos y agua de la sangre.",
+    "areaMedicaRelacionada": "Nefrología",
+    "costo": 500
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0436" },
+    "nombre": "Cistoscopia",
+    "descripcion": "Examen del interior de la vejiga y la uretra.",
+    "areaMedicaRelacionada": "Urología",
+    "costo": 450
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0437" },
+    "nombre": "Litotricia Extracorpórea",
+    "descripcion": "Uso de ondas de choque para romper cálculos renales.",
+    "areaMedicaRelacionada": "Urología",
+    "costo": 3000
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0438" },
+    "nombre": "Prostatectomía",
+    "descripcion": "Cirugía para extirpar parte o la totalidad de la próstata.",
+    "areaMedicaRelacionada": "Urología",
+    "costo": 12000
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0439" },
+    "nombre": "Biopsia de Piel",
+    "descripcion": "Extracción de una pequeña muestra de piel para examinarla.",
+    "areaMedicaRelacionada": "Dermatología",
+    "costo": 200
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0440" },
+    "nombre": "Extirpación de Nevus (Lunar)",
+    "descripcion": "Remoción quirúrgica de un lunar por razones estéticas o médicas.",
+    "areaMedicaRelacionada": "Dermatología",
+    "costo": 300
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0441" },
+    "nombre": "Terapia Fotodinámica",
+    "descripcion": "Tratamiento para ciertos tipos de cáncer de piel y afecciones cutáneas.",
+    "areaMedicaRelacionada": "Dermatología",
+    "costo": 700
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0442" },
+    "nombre": "Examen de Agudeza Visual",
+    "descripcion": "Medición de la claridad de la visión.",
+    "areaMedicaRelacionada": "Oftalmología",
+    "costo": 50
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0443" },
+    "nombre": "Cirugía de Cataratas (Facoemulsificación)",
+    "descripcion": "Extracción del cristalino opaco y reemplazo por un lente intraocular.",
+    "areaMedicaRelacionada": "Oftalmología",
+    "costo": 4000
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0444" },
+    "nombre": "Cirugía Refractiva LASIK",
+    "descripcion": "Corrección de miopía, hipermetropía y astigmatismo con láser.",
+    "areaMedicaRelacionada": "Oftalmología",
+    "costo": 5000
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0445" },
+    "nombre": "Tonometría (Medición de Presión Ocular)",
+    "descripcion": "Prueba para detectar glaucoma midiendo la presión dentro del ojo.",
+    "areaMedicaRelacionada": "Oftalmología",
+    "costo": 70
+  },
+  
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0446" },
+    "nombre": "Espirometría",
+    "descripcion": "Prueba de función pulmonar que mide la cantidad y velocidad del aire inspirado y espirado.",
+    "areaMedicaRelacionada": "Neumología",
+    "costo": 150
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0447" },
+    "nombre": "Broncoscopia",
+    "descripcion": "Examen visual de las vías respiratorias con un broncoscopio.",
+    "areaMedicaRelacionada": "Neumología",
+    "costo": 800
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0448" },
+    "nombre": "Polisomnografía (Estudio del Sueño)",
+    "descripcion": "Registro de funciones corporales durante el sueño para diagnosticar trastornos.",
+    "areaMedicaRelacionada": "Neumología",
+    "costo": 1200
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0449" },
+    "nombre": "Sesión de Terapia Respiratoria",
+    "descripcion": "Técnicas y ejercicios para mejorar la función pulmonar.",
+    "areaMedicaRelacionada": "Terapia Respiratoria",
+    "costo": 65
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0450" },
+    "nombre": "Sutura de Herida Simple",
+    "descripcion": "Cierre de una herida cutánea con puntos de sutura.",
+    "areaMedicaRelacionada": "Medicina de Emergencia",
+    "costo": 150
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0451" },
+    "nombre": "Apendicectomía",
+    "descripcion": "Extirpación quirúrgica del apéndice.",
+    "areaMedicaRelacionada": "Cirugía General",
+    "costo": 6000
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0452" },
+    "nombre": "Colecistectomía Laparoscópica",
+    "descripcion": "Extirpación de la vesícula biliar mediante cirugía mínimamente invasiva.",
+    "areaMedicaRelacionada": "Cirugía General",
+    "costo": 7500
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0453" },
+    "nombre": "Lavado Gástrico",
+    "descripcion": "Procedimiento para vaciar el contenido del estómago en casos de intoxicación.",
+    "areaMedicaRelacionada": "Medicina de Emergencia",
+    "costo": 250
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0454" },
+    "nombre": "Consulta de Medicina General",
+    "descripcion": "Evaluación médica inicial para diagnóstico y tratamiento de afecciones comunes.",
+    "areaMedicaRelacionada": "Medicina General",
+    "costo": 50
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0455" },
+    "nombre": "Chequeo Médico Ejecutivo",
+    "descripcion": "Evaluación médica completa y preventiva para adultos.",
+    "areaMedicaRelacionada": "Medicina Preventiva",
+    "costo": 500
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0456" },
+    "nombre": "Cuadro Hemático Completo",
+    "descripcion": "Análisis de sangre para evaluar glóbulos rojos, blancos y plaquetas.",
+    "areaMedicaRelacionada": "Laboratorio Clínico",
+    "costo": 30
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0457" },
+    "nombre": "Perfil Lipídico",
+    "descripcion": "Análisis de sangre para medir niveles de colesterol y triglicéridos.",
+    "areaMedicaRelacionada": "Laboratorio Clínico",
+    "costo": 40
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0458" },
+    "nombre": "Parcial de Orina",
+    "descripcion": "Análisis de una muestra de orina para detectar diversas enfermedades.",
+    "areaMedicaRelacionada": "Laboratorio Clínico",
+    "costo": 25
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0459" },
+    "nombre": "Toma de Presión Arterial",
+    "descripcion": "Medición de la presión arterial.",
+    "areaMedicaRelacionada": "Enfermería",
+    "costo": 10
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0460" },
+    "nombre": "Aplicación de Inyección Intramuscular",
+    "descripcion": "Administración de un medicamento en el músculo.",
+    "areaMedicaRelacionada": "Enfermería",
+    "costo": 15
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0461" },
+    "nombre": "Radiografía de Tórax",
+    "descripcion": "Imagen de rayos X del pecho, pulmones, corazón, y grandes vasos.",
+    "areaMedicaRelacionada": "Radiología",
+    "costo": 70
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0462" },
+    "nombre": "Radiografía de Extremidad (2 proyecciones)",
+    "descripcion": "Imagen de rayos X de un brazo o una pierna.",
+    "areaMedicaRelacionada": "Radiología",
+    "costo": 80
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0463" },
+    "nombre": "Tomografía Axial Computarizada (TAC) de Cráneo",
+    "descripcion": "Serie de imágenes de rayos X para crear imágenes transversales del cerebro.",
+    "areaMedicaRelacionada": "Radiología",
+    "costo": 400
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0464" },
+    "nombre": "Resonancia Magnética (RM) de Columna Lumbar",
+    "descripcion": "Uso de imanes y ondas de radio para crear imágenes detalladas de la columna.",
+    "areaMedicaRelacionada": "Radiología",
+    "costo": 700
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0465" },
+    "nombre": "Ecografía Abdominal Total",
+    "descripcion": "Ultrasonido para visualizar los órganos del abdomen.",
+    "areaMedicaRelacionada": "Radiología",
+    "costo": 150
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0466" },
+    "nombre": "Mamografía Bilateral",
+    "descripcion": "Radiografía de las mamas para detección de cáncer.",
+    "areaMedicaRelacionada": "Radiología",
+    "costo": 180
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0467" },
+    "nombre": "Consulta de Valoración Geriátrica Integral",
+    "descripcion": "Evaluación multidimensional de la salud de un adulto mayor.",
+    "areaMedicaRelacionada": "Geriatría",
+    "costo": 150
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0468" },
+    "nombre": "Manejo del Dolor Crónico",
+    "descripcion": "Plan de tratamiento para aliviar el dolor persistente.",
+    "areaMedicaRelacionada": "Cuidados Paliativos",
+    "costo": 100
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0469" },
+    "nombre": "Terapia Ocupacional para Adulto Mayor",
+    "descripcion": "Terapia para mantener la independencia en actividades de la vida diaria.",
+    "areaMedicaRelacionada": "Terapia Ocupacional",
+    "costo": 85
+  },
+
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0470" },
+    "nombre": "Reconstrucción Mamaria Post-Mastectomía",
+    "descripcion": "Cirugía para recrear la forma de un seno después de una mastectomía.",
+    "areaMedicaRelacionada": "Cirugía Plástica y Reconstructiva",
+    "costo": 15000
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0471" },
+    "nombre": "Injerto de Piel para Quemaduras",
+    "descripcion": "Trasplante de piel para cubrir un área quemada.",
+    "areaMedicaRelacionada": "Cirugía Plástica y Reconstructiva",
+    "costo": 8000
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0472" },
+    "nombre": "Rinoplastia Funcional",
+    "descripcion": "Cirugía para corregir problemas respiratorios nasales.",
+    "areaMedicaRelacionada": "Otorrinolaringología",
+    "costo": 7000
+  },
+
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0473" },
+    "nombre": "Consulta de Nutrición y Dietética",
+    "descripcion": "Asesoramiento profesional para mejorar los hábitos alimenticios.",
+    "areaMedicaRelacionada": "Nutrición",
+    "costo": 70
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0474" },
+    "nombre": "Amigdalectomía",
+    "descripcion": "Extirpación quirúrgica de las amígdalas.",
+    "areaMedicaRelacionada": "Otorrinolaringología",
+    "costo": 4500
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0475" },
+    "nombre": "Pruebas de Alergia Cutánea",
+    "descripcion": "Pruebas en la piel para identificar alérgenos.",
+    "areaMedicaRelacionada": "Alergología",
+    "costo": 250
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0476" },
+    "nombre": "Drenaje de Absceso",
+    "descripcion": "Procedimiento para extraer pus de una infección localizada.",
+    "areaMedicaRelacionada": "Cirugía General",
+    "costo": 400
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0477" },
+    "nombre": "Extracción de Cuerpo Extraño (Oído/Nariz)",
+    "descripcion": "Remoción de un objeto atascado en el oído o la nariz.",
+    "areaMedicaRelacionada": "Otorrinolaringología",
+    "costo": 200
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0478" },
+    "nombre": "Vasectomía",
+    "descripcion": "Procedimiento quirúrgico de esterilización masculina.",
+    "areaMedicaRelacionada": "Urología",
+    "costo": 1500
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0479" },
+    "nombre": "Ligadura de Trompas",
+    "descripcion": "Procedimiento quirúrgico de esterilización femenina.",
+    "areaMedicaRelacionada": "Ginecología",
+    "costo": 2500
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0480" },
+    "nombre": "Electrocardiograma (ECG)",
+    "descripcion": "Prueba que registra la actividad eléctrica del corazón.",
+    "areaMedicaRelacionada": "Cardiología",
+    "costo": 60
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0481" },
+    "nombre": "Reemplazo Total de Rodilla",
+    "descripcion": "Sustitución de la articulación de la rodilla por una prótesis.",
+    "areaMedicaRelacionada": "Ortopedia",
+    "costo": 20000
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0482" },
+    "nombre": "Estudio de Urodinamia",
+    "descripcion": "Prueba para evaluar el funcionamiento de la vejiga y la uretra.",
+    "areaMedicaRelacionada": "Urología",
+    "costo": 500
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0483" },
+    "nombre": "Consulta de Seguimiento Post-Operatorio",
+    "descripcion": "Revisión médica después de una cirugía.",
+    "areaMedicaRelacionada": "Cirugía General",
+    "costo": 70
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0484" },
+    "nombre": "Prueba de VPH (Virus del Papiloma Humano)",
+    "descripcion": "Análisis para detectar la presencia del VPH.",
+    "areaMedicaRelacionada": "Ginecología",
+    "costo": 180
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0485" },
+    "nombre": "Densitometría Ósea",
+    "descripcion": "Prueba para medir la densidad mineral ósea y diagnosticar osteoporosis.",
+    "areaMedicaRelacionada": "Reumatología",
+    "costo": 160
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0486" },
+    "nombre": "Gammagrafía Ósea",
+    "descripcion": "Prueba de medicina nuclear para detectar anomalías en los huesos.",
+    "areaMedicaRelacionada": "Radiología",
+    "costo": 600
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0487" },
+    "nombre": "Consulta de Salud Dental",
+    "descripcion": "Revisión y diagnóstico de la salud bucal.",
+    "areaMedicaRelacionada": "Salud Dental",
+    "costo": 60
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0488" },
+    "nombre": "Limpieza Dental Profesional (Profilaxis)",
+    "descripcion": "Eliminación de placa y sarro de los dientes.",
+    "areaMedicaRelacionada": "Salud Dental",
+    "costo": 100
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0489" },
+    "nombre": "Extracción Dental Simple",
+    "descripcion": "Remoción de un diente visible en la boca.",
+    "areaMedicaRelacionada": "Salud Dental",
+    "costo": 120
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0490" },
+    "nombre": "Tratamiento de Conducto (Endodoncia)",
+    "descripcion": "Procedimiento para salvar un diente infectado o dañado.",
+    "areaMedicaRelacionada": "Salud Dental",
+    "costo": 500
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0491" },
+    "nombre": "Terapia de Lenguaje",
+    "descripcion": "Tratamiento para mejorar las habilidades de comunicación.",
+    "areaMedicaRelacionada": "Fonoaudiología",
+    "costo": 75
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0492" },
+    "nombre": "Timpanometría",
+    "descripcion": "Prueba para evaluar la condición del oído medio y la movilidad del tímpano.",
+    "areaMedicaRelacionada": "Otorrinolaringología",
+    "costo": 90
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0493" },
+    "nombre": "Hernioplastia Inguinal",
+    "descripcion": "Reparación quirúrgica de una hernia en la ingle.",
+    "areaMedicaRelacionada": "Cirugía General",
+    "costo": 5000
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0494" },
+    "nombre": "Fotocoagulación con Láser para Retina",
+    "descripcion": "Tratamiento láser para afecciones de la retina como la retinopatía diabética.",
+    "areaMedicaRelacionada": "Oftalmología",
+    "costo": 1200
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0495" },
+    "nombre": "Curación de Herida Compleja",
+    "descripcion": "Manejo y limpieza avanzada de heridas crónicas o infectadas.",
+    "areaMedicaRelacionada": "Enfermería",
+    "costo": 80
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0496" },
+    "nombre": "Estudio de Hemoglobina Glicosilada (HbA1c)",
+    "descripcion": "Análisis de sangre para medir el control de la glucosa a largo plazo en diabéticos.",
+    "areaMedicaRelacionada": "Laboratorio Clínico",
+    "costo": 50
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0497" },
+    "nombre": "Terapia de Reemplazo Enzimático",
+    "descripcion": "Tratamiento para enfermedades genéticas por deficiencia de enzimas.",
+    "areaMedicaRelacionada": "Genética Médica",
+    "costo": 3000
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0498" },
+    "nombre": "Cateterismo Vesical",
+    "descripcion": "Inserción de un catéter en la vejiga para drenar la orina.",
+    "areaMedicaRelacionada": "Enfermería",
+    "costo": 100
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0499" },
+    "nombre": "Toracocentesis",
+    "descripcion": "Procedimiento para drenar líquido del espacio entre los pulmones y la pared torácica.",
+    "areaMedicaRelacionada": "Neumología",
+    "costo": 600
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0500" },
+    "nombre": "Paracentesis",
+    "descripcion": "Procedimiento para drenar líquido acumulado en el abdomen (ascitis).",
+    "areaMedicaRelacionada": "Gastroenterología",
+    "costo": 550
+  },
+  {
+    "_id": { "$oid": "60c72b2f9e4b7b1b7c2d0501" },
+    "nombre": "Transfusión de Sangre",
+    "descripcion": "Administración de sangre o componentes sanguíneos por vía intravenosa.",
+    "areaMedicaRelacionada": "Banco de Sangre",
+    "costo": 400
+  }
+]
