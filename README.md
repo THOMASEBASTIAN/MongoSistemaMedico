@@ -201,27 +201,29 @@ db.hospitals.find({ direccion: /Carrera \d+/i })
 
 ## ⚙️Ejemplo de funciones
 
-*Estas funciones almacenadas en MongoDB te permiten interactuar con tus datos de manera más eficiente y realizar consultas complejas con una simple llamada. Simplifican tareas comunes, desde buscar información específica hasta generar reportes detallados, por ejemplo:*
+Estas funciones almacenadas en MongoDB te permiten interactuar con tus datos de manera más eficiente y realizar consultas complejas con una simple llamada. Simplifican tareas comunes, desde buscar información específica hasta generar reportes detallados, por ejemplo:
 
 * *1.*
-´´´
+
+```
 getVisitasPorPaciente(pacienteId)
-´´´
-Esta función te permite obtener todas las visitas médicas asociadas a un paciente específico utilizando su ID. Es ideal para ver el historial de atención de un individuo de forma rápida, por ejemplo, si quieres ver el id de algun paciente en especifico, solo tienes que pegar el id del paciente entre las comillas, asi: ´´´getVisitasPorPaciente("60c72b2f9e4b7b1b7c2d0040")´´´
+```
+
+Esta función te permite obtener todas las visitas médicas asociadas a un paciente específico utilizando su ID. Es ideal para ver el historial de atención de un individuo de forma rápida, por ejemplo, si quieres ver el id de algun paciente en especifico, solo tienes que pegar el id del paciente entre las comillas, asi: ```getVisitasPorPaciente("60c72b2f9e4b7b1b7c2d0040")```
 
 * *2.*
 
-´´´
+```
 getMedicosPorEspecialidad(especialidad)
-´´´
- Con esta función, puedes listar a todos los médicos que tienen una especialidad médica particular. Es muy útil para identificar rápidamente a los profesionales en un área específica, por ejemplo, si quieres ver todos los medicos que tienen la especialidad de Geriatria, simplemente pones la especialidad entre las comillas, asi: ´´´getMedicosPorEspecialidad("Geriatría")´´´
+```
+ Con esta función, puedes listar a todos los médicos que tienen una especialidad médica particular. Es muy útil para identificar rápidamente a los profesionales en un área específica, por ejemplo, si quieres ver todos los medicos que tienen la especialidad de Geriatria, simplemente pones la especialidad entre las comillas, asi: ```getMedicosPorEspecialidad("Geriatría")```
 
 
 * *3.*
 
- ´´´
+ ```
 contarVisitasPorEspecialidad()
- ´´´
+ ```
 Esta función cuenta el número total de visitas médicas realizadas para cada especialidad. Es perfecta para análisis de carga de trabajo por área o para identificar qué especialidades tienen mayor demanda de consultas.
 
 
